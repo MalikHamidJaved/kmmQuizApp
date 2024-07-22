@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'Mixpanel' in project 'Pods'
+➜ Explicit dependency on target 'Mixpanel-Mixpanel' in project 'Pods'
+Target 'Mixpanel-Mixpanel' in project 'Pods' (no dependencies)

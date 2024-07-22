@@ -1,0 +1,20 @@
+PODS:
+  - Mixpanel (5.0.7)
+  - UXCam (3.6.14)
+
+DEPENDENCIES:
+  - Mixpanel
+  - UXCam
+
+SPEC REPOS:
+  trunk:
+    - Mixpanel
+    - UXCam
+
+SPEC CHECKSUMS:
+  Mixpanel: 25b7ccefcd20749841db42295c5dba4ed89a805e
+  UXCam: 042b36c456c1b877c9852558353db5ac413e742d
+
+PODFILE CHECKSUM: fdd05e26ac594cde8225937b4c192fe02e7758bc
+
+COCOAPODS: 1.15.2

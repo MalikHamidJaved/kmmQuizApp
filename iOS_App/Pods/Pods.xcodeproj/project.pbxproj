@@ -19,13 +19,13 @@
 		};
 		7B100321F47EF31F654D61AB50FB5BEA /* kmmtshared */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8C19B88D19F7202D50CF5B072C89C648 /* Build configuration list for PBXAggregateTarget "kmmtshared" */;
+			buildConfigurationList = E0BA334C5810CB63721E9957F5E80711 /* Build configuration list for PBXAggregateTarget "kmmtshared" */;
 			buildPhases = (
-				CDC64D6E7A1A4C122A735EC8C4B8CB4D /* [CP-User] Build kmmtshared */,
+				18B8E20DAEA6E004115DDC2B8E3C7A9F /* [CP-User] Build kmmtshared */,
 			);
 			dependencies = (
-				85019378D727D30D6C0CC27458B6765F /* PBXTargetDependency */,
-				BBC4EF88AAE36115B10DD7F362200A32 /* PBXTargetDependency */,
+				A7332DB2376F74479684F39DA6AE8AFE /* PBXTargetDependency */,
+				4521D73A7CC6E3EF51D099CBF4E41F69 /* PBXTargetDependency */,
 			);
 			name = kmmtshared;
 		};
@@ -79,6 +79,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3E17179D25A7E181538AE6ADDA044D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
+			remoteInfo = Mixpanel;
+		};
 		48452B95FB0BE3104D09EB6736C65FF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -86,19 +93,12 @@
 			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
 			remoteInfo = Mixpanel;
 		};
-		8C49D7E4BAB0AD74E6DA16E56C5DF40D /* PBXContainerItemProxy */ = {
+		AE4B41C6455A6253E22E149AE3603223 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2AA2D83B4DE968A4C94EA9BE51AC3069;
 			remoteInfo = UXCam;
-		};
-		9663668D4EEB0A3F61980A5B4FAE19E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 537B4CFD82E0DD77F4C26221EBD8EDCA;
-			remoteInfo = Mixpanel;
 		};
 		CD007DCBE2FB715FA773DC6A00A4B429 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -504,8 +504,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -546,6 +546,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		18B8E20DAEA6E004115DDC2B8E3C7A9F /* [CP-User] Build kmmtshared */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Build kmmtshared";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "                if [ \"YES\" = \"$COCOAPODS_SKIP_KOTLIN_BUILD\" ]; then\n                  echo \"Skipping Gradle build task invocation due to COCOAPODS_SKIP_KOTLIN_BUILD environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../../../../../../private/var/folders/62/ybf2gf0s057_z83p01_2_3fr0000gn/T/wraploc/gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n";
+		};
 		273E105A02A4D0C7CB4F33AB65FD4AF4 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,16 +572,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/UXCam/UXCam-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		CDC64D6E7A1A4C122A735EC8C4B8CB4D /* [CP-User] Build kmmtshared */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "[CP-User] Build kmmtshared";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "                if [ \"YES\" = \"$COCOAPODS_SKIP_KOTLIN_BUILD\" ]; then\n                  echo \"Skipping Gradle build task invocation due to COCOAPODS_SKIP_KOTLIN_BUILD environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -608,6 +608,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4521D73A7CC6E3EF51D099CBF4E41F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UXCam;
+			target = 2AA2D83B4DE968A4C94EA9BE51AC3069 /* UXCam */;
+			targetProxy = AE4B41C6455A6253E22E149AE3603223 /* PBXContainerItemProxy */;
+		};
 		539CEDCD37A48270859BC850C688D0F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UXCam;
@@ -620,17 +626,11 @@
 			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
 			targetProxy = 48452B95FB0BE3104D09EB6736C65FF7 /* PBXContainerItemProxy */;
 		};
-		85019378D727D30D6C0CC27458B6765F /* PBXTargetDependency */ = {
+		A7332DB2376F74479684F39DA6AE8AFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mixpanel;
 			target = 537B4CFD82E0DD77F4C26221EBD8EDCA /* Mixpanel */;
-			targetProxy = 9663668D4EEB0A3F61980A5B4FAE19E5 /* PBXContainerItemProxy */;
-		};
-		BBC4EF88AAE36115B10DD7F362200A32 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UXCam;
-			target = 2AA2D83B4DE968A4C94EA9BE51AC3069 /* UXCam */;
-			targetProxy = 8C49D7E4BAB0AD74E6DA16E56C5DF40D /* PBXContainerItemProxy */;
+			targetProxy = 3E17179D25A7E181538AE6ADDA044D20 /* PBXContainerItemProxy */;
 		};
 		E115A07EEDCE6108869DFB6FDB585CDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -641,9 +641,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B86D90715D5A7DB873A32C78BB081C5 /* Release */ = {
+		2054245BC6F7BE5FB191E748487972A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB40529FC764DE7D2C6E8E8D8670056E /* kmmtshared.release.xcconfig */;
+			baseConfigurationReference = 4D37C523A2E8246D2865E668F9DD6E8F /* kmmtshared.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -655,9 +655,8 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		27775532F86D333F13FCC47AA814A18C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -713,23 +712,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		4597D40AA76D22F3F765BE908F915004 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D37C523A2E8246D2865E668F9DD6E8F /* kmmtshared.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		4D601D235A2298558D056F5929956556 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -913,6 +895,24 @@
 			};
 			name = Debug;
 		};
+		C0A5709C5D1C54FA4AA4A91F5F7750B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB40529FC764DE7D2C6E8E8D8670056E /* kmmtshared.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		CC5559FDF058D810DA248F35A4B1A52B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22119EFD232C3413E88A448134B46804 /* Pods-KMMTApp.debug.xcconfig */;
@@ -1015,20 +1015,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C19B88D19F7202D50CF5B072C89C648 /* Build configuration list for PBXAggregateTarget "kmmtshared" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4597D40AA76D22F3F765BE908F915004 /* Debug */,
-				0B86D90715D5A7DB873A32C78BB081C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B94494D2F62CDC944F9C4D6494C2CEA6 /* Build configuration list for PBXNativeTarget "Pods-KMMTApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC5559FDF058D810DA248F35A4B1A52B /* Debug */,
 				3B7FE2100C21531456980E764DDB5617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BA334C5810CB63721E9957F5E80711 /* Build configuration list for PBXAggregateTarget "kmmtshared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2054245BC6F7BE5FB191E748487972A2 /* Debug */,
+				C0A5709C5D1C54FA4AA4A91F5F7750B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

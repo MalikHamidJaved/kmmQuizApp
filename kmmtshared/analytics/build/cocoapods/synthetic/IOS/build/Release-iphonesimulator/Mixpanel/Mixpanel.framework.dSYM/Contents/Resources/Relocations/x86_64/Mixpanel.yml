@@ -1,0 +1,460 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/malikhamidjaved/Documents/GitHub/kmmQuizApp/kmmtshared/analytics/build/cocoapods/synthetic/IOS/build/Release-iphonesimulator/Mixpanel/Mixpanel.framework/Mixpanel'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5C94D, size: 0x8, addend: 0x0, symName: _MixpanelVersionString, symObjAddr: 0x0, symBinAddr: 0x16700, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5C982, size: 0x8, addend: 0x0, symName: _MixpanelVersionNumber, symObjAddr: 0x28, symBinAddr: 0x16728, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5C9BF, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents init]', symObjAddr: 0x0, symBinAddr: 0x13B0, symSize: 0x10A }
+  - { offsetInCU: 0x170, offset: 0x5CB08, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents init]', symObjAddr: 0x0, symBinAddr: 0x13B0, symSize: 0x10A }
+  - { offsetInCU: 0x242, offset: 0x5CBDA, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents initializeEvents:apiToken:]', symObjAddr: 0x10A, symBinAddr: 0x14BA, symSize: 0x456 }
+  - { offsetInCU: 0x62F, offset: 0x5CFC7, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents appWillResignActive:]', symObjAddr: 0x560, symBinAddr: 0x1910, symSize: 0x213 }
+  - { offsetInCU: 0x7E1, offset: 0x5D179, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents appDidBecomeActive:]', symObjAddr: 0x773, symBinAddr: 0x1B23, symSize: 0x60 }
+  - { offsetInCU: 0x85C, offset: 0x5D1F4, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents paymentQueue:updatedTransactions:]', symObjAddr: 0x7D3, symBinAddr: 0x1B83, symSize: 0x387 }
+  - { offsetInCU: 0xAF8, offset: 0x5D490, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents productsRequest:didReceiveResponse:]', symObjAddr: 0xB5A, symBinAddr: 0x1F0A, symSize: 0x445 }
+  - { offsetInCU: 0xD4C, offset: 0x5D6E4, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents roundOneDigit:]', symObjAddr: 0xF9F, symBinAddr: 0x234F, symSize: 0x1B }
+  - { offsetInCU: 0xD8F, offset: 0x5D727, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents delegate]', symObjAddr: 0xFBA, symBinAddr: 0x236A, symSize: 0x16 }
+  - { offsetInCU: 0xDC6, offset: 0x5D75E, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents setDelegate:]', symObjAddr: 0xFD0, symBinAddr: 0x2380, symSize: 0x11 }
+  - { offsetInCU: 0xE05, offset: 0x5D79D, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents minimumSessionDuration]', symObjAddr: 0xFE1, symBinAddr: 0x2391, symSize: 0xA }
+  - { offsetInCU: 0xE3A, offset: 0x5D7D2, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents setMinimumSessionDuration:]', symObjAddr: 0xFEB, symBinAddr: 0x239B, symSize: 0xA }
+  - { offsetInCU: 0xE77, offset: 0x5D80F, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents maximumSessionDuration]', symObjAddr: 0xFF5, symBinAddr: 0x23A5, symSize: 0xA }
+  - { offsetInCU: 0xEAC, offset: 0x5D844, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents setMaximumSessionDuration:]', symObjAddr: 0xFFF, symBinAddr: 0x23AF, symSize: 0xA }
+  - { offsetInCU: 0xEE9, offset: 0x5D881, size: 0x8, addend: 0x0, symName: '-[AutomaticEvents .cxx_destruct]', symObjAddr: 0x1009, symBinAddr: 0x23B9, symSize: 0x3C }
+  - { offsetInCU: 0x27, offset: 0x5D934, size: 0x8, addend: 0x0, symName: '+[Mixpanel sharedInstanceWithToken:trackAutomaticEvents:trackCrashes:]', symObjAddr: 0x0, symBinAddr: 0x2400, symSize: 0x2C }
+  - { offsetInCU: 0x3F, offset: 0x5D94C, size: 0x8, addend: 0x0, symName: '+[Mixpanel sharedInstanceWithToken:trackAutomaticEvents:trackCrashes:optOutTrackingByDefault:useUniqueDistinctId:]', symObjAddr: 0x2C, symBinAddr: 0x242C, symSize: 0xDC }
+  - { offsetInCU: 0x169, offset: 0x5DA76, size: 0x8, addend: 0x0, symName: '-[Mixpanel init:]', symObjAddr: 0x445, symBinAddr: 0x2845, symSize: 0x137 }
+  - { offsetInCU: 0x193, offset: 0x5DAA0, size: 0x8, addend: 0x0, symName: '_init:.onceToken', symObjAddr: 0x2DE70, symBinAddr: 0x23ED8, symSize: 0x0 }
+  - { offsetInCU: 0x2C7, offset: 0x5DBD4, size: 0x8, addend: 0x0, symName: _instances, symObjAddr: 0x2DE60, symBinAddr: 0x23EC8, symSize: 0x0 }
+  - { offsetInCU: 0x2E2, offset: 0x5DBEF, size: 0x8, addend: 0x0, symName: _defaultProjectToken, symObjAddr: 0x2DE68, symBinAddr: 0x23ED0, symSize: 0x0 }
+  - { offsetInCU: 0x2F8, offset: 0x5DC05, size: 0x8, addend: 0x0, symName: _telephonyInfo, symObjAddr: 0x2DE78, symBinAddr: 0x23EE0, symSize: 0x0 }
+  - { offsetInCU: 0x307, offset: 0x5DC14, size: 0x8, addend: 0x0, symName: _MPLogWarning, symObjAddr: 0x24C, symBinAddr: 0x264C, symSize: 0x1F9 }
+  - { offsetInCU: 0x4FC, offset: 0x5DE09, size: 0x8, addend: 0x0, symName: _MPLogError, symObjAddr: 0x12A6, symBinAddr: 0x36A6, symSize: 0x1F9 }
+  - { offsetInCU: 0x6E7, offset: 0x5DFF4, size: 0x8, addend: 0x0, symName: _MPLogInfo, symObjAddr: 0x1CD6, symBinAddr: 0x40D6, symSize: 0x1F9 }
+  - { offsetInCU: 0xE47, offset: 0x5E754, size: 0x8, addend: 0x0, symName: '+[Mixpanel sharedInstanceWithToken:trackAutomaticEvents:trackCrashes:]', symObjAddr: 0x0, symBinAddr: 0x2400, symSize: 0x2C }
+  - { offsetInCU: 0xED5, offset: 0x5E7E2, size: 0x8, addend: 0x0, symName: '+[Mixpanel sharedInstanceWithToken:trackAutomaticEvents:]', symObjAddr: 0x108, symBinAddr: 0x2508, symSize: 0x1F }
+  - { offsetInCU: 0xF53, offset: 0x5E860, size: 0x8, addend: 0x0, symName: '+[Mixpanel sharedInstanceWithToken:trackAutomaticEvents:optOutTrackingByDefault:]', symObjAddr: 0x127, symBinAddr: 0x2527, symSize: 0x32 }
+  - { offsetInCU: 0xFE1, offset: 0x5E8EE, size: 0x8, addend: 0x0, symName: '+[Mixpanel sharedInstanceWithToken:trackAutomaticEvents:useUniqueDistinctId:]', symObjAddr: 0x159, symBinAddr: 0x2559, symSize: 0x2F }
+  - { offsetInCU: 0x106D, offset: 0x5E97A, size: 0x8, addend: 0x0, symName: '+[Mixpanel sharedInstance]', symObjAddr: 0x188, symBinAddr: 0x2588, symSize: 0xC4 }
+  - { offsetInCU: 0x120F, offset: 0x5EB1C, size: 0x8, addend: 0x0, symName: '___17-[Mixpanel init:]_block_invoke', symObjAddr: 0x57C, symBinAddr: 0x297C, symSize: 0x8B }
+  - { offsetInCU: 0x127A, offset: 0x5EB87, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x607, symBinAddr: 0x2A07, symSize: 0xF }
+  - { offsetInCU: 0x12AD, offset: 0x5EBBA, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x616, symBinAddr: 0x2A16, symSize: 0xF }
+  - { offsetInCU: 0x12D8, offset: 0x5EBE5, size: 0x8, addend: 0x0, symName: '-[Mixpanel initWithToken:trackAutomaticEvents:flushInterval:trackCrashes:optOutTrackingByDefault:useUniqueDistinctId:]', symObjAddr: 0x625, symBinAddr: 0x2A25, symSize: 0x5C0 }
+  - { offsetInCU: 0x197E, offset: 0x5F28B, size: 0x8, addend: 0x0, symName: '-[Mixpanel initWithToken:trackAutomaticEvents:flushInterval:trackCrashes:useUniqueDistinctId:]', symObjAddr: 0xBE5, symBinAddr: 0x2FE5, symSize: 0x1E }
+  - { offsetInCU: 0x1A36, offset: 0x5F343, size: 0x8, addend: 0x0, symName: '-[Mixpanel initWithToken:trackAutomaticEvents:andFlushInterval:]', symObjAddr: 0xC03, symBinAddr: 0x3003, symSize: 0x25 }
+  - { offsetInCU: 0x1AD0, offset: 0x5F3DD, size: 0x8, addend: 0x0, symName: '-[Mixpanel didDebugInit:]', symObjAddr: 0xC28, symBinAddr: 0x3028, symSize: 0x1D7 }
+  - { offsetInCU: 0x1C70, offset: 0x5F57D, size: 0x8, addend: 0x0, symName: '-[Mixpanel checkIfImplemented:debugInitCount:]', symObjAddr: 0xDFF, symBinAddr: 0x31FF, symSize: 0x3C5 }
+  - { offsetInCU: 0x1F61, offset: 0x5F86E, size: 0x8, addend: 0x0, symName: '-[Mixpanel dealloc]', symObjAddr: 0x11C4, symBinAddr: 0x35C4, symSize: 0xE2 }
+  - { offsetInCU: 0x2087, offset: 0x5F994, size: 0x8, addend: 0x0, symName: '+[Mixpanel isAppExtension]', symObjAddr: 0x149F, symBinAddr: 0x389F, symSize: 0x7C }
+  - { offsetInCU: 0x2107, offset: 0x5FA14, size: 0x8, addend: 0x0, symName: '+[Mixpanel sharedUIApplication]', symObjAddr: 0x151B, symBinAddr: 0x391B, symSize: 0x7B }
+  - { offsetInCU: 0x2183, offset: 0x5FA90, size: 0x8, addend: 0x0, symName: '-[Mixpanel shouldManageNetworkActivityIndicator]', symObjAddr: 0x1596, symBinAddr: 0x3996, symSize: 0x44 }
+  - { offsetInCU: 0x21E7, offset: 0x5FAF4, size: 0x8, addend: 0x0, symName: '-[Mixpanel setShouldManageNetworkActivityIndicator:]', symObjAddr: 0x15DA, symBinAddr: 0x39DA, symSize: 0x4A }
+  - { offsetInCU: 0x2260, offset: 0x5FB6D, size: 0x8, addend: 0x0, symName: '-[Mixpanel useIPAddressForGeoLocation]', symObjAddr: 0x1624, symBinAddr: 0x3A24, symSize: 0x44 }
+  - { offsetInCU: 0x22C4, offset: 0x5FBD1, size: 0x8, addend: 0x0, symName: '-[Mixpanel setUseIPAddressForGeoLocation:]', symObjAddr: 0x1668, symBinAddr: 0x3A68, symSize: 0x4A }
+  - { offsetInCU: 0x233D, offset: 0x5FC4A, size: 0x8, addend: 0x0, symName: '-[Mixpanel setTrackAutomaticEventsEnabled:]', symObjAddr: 0x16B2, symBinAddr: 0x3AB2, symSize: 0x78 }
+  - { offsetInCU: 0x23D2, offset: 0x5FCDF, size: 0x8, addend: 0x0, symName: '___43-[Mixpanel setTrackAutomaticEventsEnabled:]_block_invoke', symObjAddr: 0x172A, symBinAddr: 0x3B2A, symSize: 0x41 }
+  - { offsetInCU: 0x2440, offset: 0x5FD4D, size: 0x8, addend: 0x0, symName: '-[Mixpanel minimumSessionDuration]', symObjAddr: 0x176B, symBinAddr: 0x3B6B, symSize: 0x44 }
+  - { offsetInCU: 0x24A4, offset: 0x5FDB1, size: 0x8, addend: 0x0, symName: '-[Mixpanel setMinimumSessionDuration:]', symObjAddr: 0x17AF, symBinAddr: 0x3BAF, symSize: 0x4C }
+  - { offsetInCU: 0x251D, offset: 0x5FE2A, size: 0x8, addend: 0x0, symName: '-[Mixpanel maximumSessionDuration]', symObjAddr: 0x17FB, symBinAddr: 0x3BFB, symSize: 0x44 }
+  - { offsetInCU: 0x2581, offset: 0x5FE8E, size: 0x8, addend: 0x0, symName: '-[Mixpanel setMaximumSessionDuration:]', symObjAddr: 0x183F, symBinAddr: 0x3C3F, symSize: 0x4C }
+  - { offsetInCU: 0x25FA, offset: 0x5FF07, size: 0x8, addend: 0x0, symName: '+[Mixpanel assertPropertyTypes:]', symObjAddr: 0x188B, symBinAddr: 0x3C8B, symSize: 0x1B }
+  - { offsetInCU: 0x2654, offset: 0x5FF61, size: 0x8, addend: 0x0, symName: '+[Mixpanel assertPropertyType:depth:]', symObjAddr: 0x18A6, symBinAddr: 0x3CA6, symSize: 0x6 }
+  - { offsetInCU: 0x269E, offset: 0x5FFAB, size: 0x8, addend: 0x0, symName: '+[Mixpanel assertPropertyTypesInDictionary:depth:]', symObjAddr: 0x18AC, symBinAddr: 0x3CAC, symSize: 0x1CA }
+  - { offsetInCU: 0x27F3, offset: 0x60100, size: 0x8, addend: 0x0, symName: '+[Mixpanel assertPropertyTypesInArray:depth:]', symObjAddr: 0x1A76, symBinAddr: 0x3E76, symSize: 0x175 }
+  - { offsetInCU: 0x290A, offset: 0x60217, size: 0x8, addend: 0x0, symName: '-[Mixpanel defaultDeviceId]', symObjAddr: 0x1BEB, symBinAddr: 0x3FEB, symSize: 0xEB }
+  - { offsetInCU: 0x29E2, offset: 0x602EF, size: 0x8, addend: 0x0, symName: '-[Mixpanel currentMixpanelIdentity]', symObjAddr: 0x1ECF, symBinAddr: 0x42CF, symSize: 0x13E }
+  - { offsetInCU: 0x2B25, offset: 0x60432, size: 0x8, addend: 0x0, symName: '-[Mixpanel identify:]', symObjAddr: 0x200D, symBinAddr: 0x440D, symSize: 0x17 }
+  - { offsetInCU: 0x2B89, offset: 0x60496, size: 0x8, addend: 0x0, symName: '-[Mixpanel identify:usePeople:]', symObjAddr: 0x2024, symBinAddr: 0x4424, symSize: 0x129 }
+  - { offsetInCU: 0x2CCA, offset: 0x605D7, size: 0x8, addend: 0x0, symName: '___31-[Mixpanel identify:usePeople:]_block_invoke', symObjAddr: 0x214D, symBinAddr: 0x454D, symSize: 0x2C6 }
+  - { offsetInCU: 0x2F52, offset: 0x6085F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x2413, symBinAddr: 0x4813, symSize: 0x25 }
+  - { offsetInCU: 0x2F93, offset: 0x608A0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x2438, symBinAddr: 0x4838, symSize: 0x25 }
+  - { offsetInCU: 0x2FCA, offset: 0x608D7, size: 0x8, addend: 0x0, symName: '-[Mixpanel createAlias:forDistinctID:]', symObjAddr: 0x245D, symBinAddr: 0x485D, symSize: 0x18 }
+  - { offsetInCU: 0x3045, offset: 0x60952, size: 0x8, addend: 0x0, symName: '-[Mixpanel createAlias:forDistinctID:usePeople:]', symObjAddr: 0x2475, symBinAddr: 0x4875, symSize: 0x23A }
+  - { offsetInCU: 0x324E, offset: 0x60B5B, size: 0x8, addend: 0x0, symName: '___48-[Mixpanel createAlias:forDistinctID:usePeople:]_block_invoke', symObjAddr: 0x26AF, symBinAddr: 0x4AAF, symSize: 0x90 }
+  - { offsetInCU: 0x3308, offset: 0x60C15, size: 0x8, addend: 0x0, symName: '-[Mixpanel track:]', symObjAddr: 0x273F, symBinAddr: 0x4B3F, symSize: 0x14 }
+  - { offsetInCU: 0x336C, offset: 0x60C79, size: 0x8, addend: 0x0, symName: '-[Mixpanel track:properties:]', symObjAddr: 0x2753, symBinAddr: 0x4B53, symSize: 0x26A }
+  - { offsetInCU: 0x35F9, offset: 0x60F06, size: 0x8, addend: 0x0, symName: '___29-[Mixpanel track:properties:]_block_invoke', symObjAddr: 0x29BD, symBinAddr: 0x4DBD, symSize: 0x5DF }
+  - { offsetInCU: 0x3B3B, offset: 0x61448, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s, symObjAddr: 0x2F9C, symBinAddr: 0x539C, symSize: 0x33 }
+  - { offsetInCU: 0x3B94, offset: 0x614A1, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x2FCF, symBinAddr: 0x53CF, symSize: 0x33 }
+  - { offsetInCU: 0x3BE3, offset: 0x614F0, size: 0x8, addend: 0x0, symName: '-[Mixpanel trackWithGroups:properties:groups:]', symObjAddr: 0x3002, symBinAddr: 0x5402, symSize: 0x149 }
+  - { offsetInCU: 0x3D6D, offset: 0x6167A, size: 0x8, addend: 0x0, symName: '___46-[Mixpanel trackWithGroups:properties:groups:]_block_invoke', symObjAddr: 0x314B, symBinAddr: 0x554B, symSize: 0x20 }
+  - { offsetInCU: 0x3DE4, offset: 0x616F1, size: 0x8, addend: 0x0, symName: '-[Mixpanel addGroup:groupID:]', symObjAddr: 0x316B, symBinAddr: 0x556B, symSize: 0x14B }
+  - { offsetInCU: 0x3F35, offset: 0x61842, size: 0x8, addend: 0x0, symName: '-[Mixpanel addValuesToGroupSuperProperty:groupID:]', symObjAddr: 0x32B6, symBinAddr: 0x56B6, symSize: 0xB3 }
+  - { offsetInCU: 0x402F, offset: 0x6193C, size: 0x8, addend: 0x0, symName: '___50-[Mixpanel addValuesToGroupSuperProperty:groupID:]_block_invoke', symObjAddr: 0x3369, symBinAddr: 0x5769, symSize: 0x160 }
+  - { offsetInCU: 0x41F2, offset: 0x61AFF, size: 0x8, addend: 0x0, symName: '-[Mixpanel removeGroup:groupID:]', symObjAddr: 0x34C9, symBinAddr: 0x58C9, symSize: 0xDC }
+  - { offsetInCU: 0x4308, offset: 0x61C15, size: 0x8, addend: 0x0, symName: '___32-[Mixpanel removeGroup:groupID:]_block_invoke', symObjAddr: 0x35A5, symBinAddr: 0x59A5, symSize: 0x357 }
+  - { offsetInCU: 0x464E, offset: 0x61F5B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0x38FC, symBinAddr: 0x5CFC, symSize: 0x2C }
+  - { offsetInCU: 0x469B, offset: 0x61FA8, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x3928, symBinAddr: 0x5D28, symSize: 0x2C }
+  - { offsetInCU: 0x46DE, offset: 0x61FEB, size: 0x8, addend: 0x0, symName: '-[Mixpanel setGroup:groupIDs:]', symObjAddr: 0x3954, symBinAddr: 0x5D54, symSize: 0x10F }
+  - { offsetInCU: 0x480E, offset: 0x6211B, size: 0x8, addend: 0x0, symName: '-[Mixpanel setGroup:groupID:]', symObjAddr: 0x3A63, symBinAddr: 0x5E63, symSize: 0xC1 }
+  - { offsetInCU: 0x48FF, offset: 0x6220C, size: 0x8, addend: 0x0, symName: '-[Mixpanel keyForGroup:groupID:]', symObjAddr: 0x3B24, symBinAddr: 0x5F24, symSize: 0x28 }
+  - { offsetInCU: 0x4972, offset: 0x6227F, size: 0x8, addend: 0x0, symName: '-[Mixpanel getGroup:groupID:]', symObjAddr: 0x3B4C, symBinAddr: 0x5F4C, symSize: 0x1F1 }
+  - { offsetInCU: 0x4B89, offset: 0x62496, size: 0x8, addend: 0x0, symName: '-[Mixpanel updateSuperPropertiesAsync:]', symObjAddr: 0x3D3D, symBinAddr: 0x613D, symSize: 0xB8 }
+  - { offsetInCU: 0x4C54, offset: 0x62561, size: 0x8, addend: 0x0, symName: '___39-[Mixpanel updateSuperPropertiesAsync:]_block_invoke', symObjAddr: 0x3DF5, symBinAddr: 0x61F5, symSize: 0xDE }
+  - { offsetInCU: 0x4D72, offset: 0x6267F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x3ED3, symBinAddr: 0x62D3, symSize: 0x30 }
+  - { offsetInCU: 0x4DA7, offset: 0x626B4, size: 0x8, addend: 0x0, symName: '-[Mixpanel registerSuperProperties:]', symObjAddr: 0x3F03, symBinAddr: 0x6303, symSize: 0xE3 }
+  - { offsetInCU: 0x4E9A, offset: 0x627A7, size: 0x8, addend: 0x0, symName: '___36-[Mixpanel registerSuperProperties:]_block_invoke', symObjAddr: 0x3FE6, symBinAddr: 0x63E6, symSize: 0x11D }
+  - { offsetInCU: 0x4FE4, offset: 0x628F1, size: 0x8, addend: 0x0, symName: '-[Mixpanel registerSuperPropertiesOnce:]', symObjAddr: 0x4103, symBinAddr: 0x6503, symSize: 0x14 }
+  - { offsetInCU: 0x5048, offset: 0x62955, size: 0x8, addend: 0x0, symName: '-[Mixpanel registerSuperPropertiesOnce:defaultValue:]', symObjAddr: 0x4117, symBinAddr: 0x6517, symSize: 0x118 }
+  - { offsetInCU: 0x5194, offset: 0x62AA1, size: 0x8, addend: 0x0, symName: '___53-[Mixpanel registerSuperPropertiesOnce:defaultValue:]_block_invoke', symObjAddr: 0x422F, symBinAddr: 0x662F, symSize: 0x30F }
+  - { offsetInCU: 0x53C4, offset: 0x62CD1, size: 0x8, addend: 0x0, symName: '-[Mixpanel unregisterSuperProperty:]', symObjAddr: 0x453E, symBinAddr: 0x693E, symSize: 0xB8 }
+  - { offsetInCU: 0x548F, offset: 0x62D9C, size: 0x8, addend: 0x0, symName: '___36-[Mixpanel unregisterSuperProperty:]_block_invoke', symObjAddr: 0x45F6, symBinAddr: 0x69F6, symSize: 0x11F }
+  - { offsetInCU: 0x55DF, offset: 0x62EEC, size: 0x8, addend: 0x0, symName: '-[Mixpanel clearSuperProperties]', symObjAddr: 0x4715, symBinAddr: 0x6B15, symSize: 0x71 }
+  - { offsetInCU: 0x5650, offset: 0x62F5D, size: 0x8, addend: 0x0, symName: '___32-[Mixpanel clearSuperProperties]_block_invoke', symObjAddr: 0x4786, symBinAddr: 0x6B86, symSize: 0x96 }
+  - { offsetInCU: 0x56F9, offset: 0x63006, size: 0x8, addend: 0x0, symName: '-[Mixpanel currentSuperProperties]', symObjAddr: 0x481C, symBinAddr: 0x6C1C, symSize: 0x48 }
+  - { offsetInCU: 0x575D, offset: 0x6306A, size: 0x8, addend: 0x0, symName: '-[Mixpanel timeEvent:]', symObjAddr: 0x4864, symBinAddr: 0x6C64, symSize: 0x16D }
+  - { offsetInCU: 0x58D7, offset: 0x631E4, size: 0x8, addend: 0x0, symName: '___22-[Mixpanel timeEvent:]_block_invoke', symObjAddr: 0x49D1, symBinAddr: 0x6DD1, symSize: 0xC0 }
+  - { offsetInCU: 0x59CA, offset: 0x632D7, size: 0x8, addend: 0x0, symName: '-[Mixpanel eventElapsedTime:]', symObjAddr: 0x4A91, symBinAddr: 0x6E91, symSize: 0x1A3 }
+  - { offsetInCU: 0x5B07, offset: 0x63414, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x4C34, symBinAddr: 0x7034, symSize: 0x16 }
+  - { offsetInCU: 0x5B2C, offset: 0x63439, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x4C4A, symBinAddr: 0x704A, symSize: 0xF }
+  - { offsetInCU: 0x5B57, offset: 0x63464, size: 0x8, addend: 0x0, symName: '___29-[Mixpanel eventElapsedTime:]_block_invoke', symObjAddr: 0x4C59, symBinAddr: 0x7059, symSize: 0x71 }
+  - { offsetInCU: 0x5BF3, offset: 0x63500, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48r, symObjAddr: 0x4CCA, symBinAddr: 0x70CA, symSize: 0x44 }
+  - { offsetInCU: 0x5C34, offset: 0x63541, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48r, symObjAddr: 0x4D0E, symBinAddr: 0x710E, symSize: 0x33 }
+  - { offsetInCU: 0x5C6B, offset: 0x63578, size: 0x8, addend: 0x0, symName: '-[Mixpanel clearTimedEvent:]', symObjAddr: 0x4D41, symBinAddr: 0x7141, symSize: 0xDC }
+  - { offsetInCU: 0x5D50, offset: 0x6365D, size: 0x8, addend: 0x0, symName: '___28-[Mixpanel clearTimedEvent:]_block_invoke', symObjAddr: 0x4E1D, symBinAddr: 0x721D, symSize: 0xB6 }
+  - { offsetInCU: 0x5E2A, offset: 0x63737, size: 0x8, addend: 0x0, symName: '-[Mixpanel clearTimedEvents]', symObjAddr: 0x4ED3, symBinAddr: 0x72D3, symSize: 0x71 }
+  - { offsetInCU: 0x5E9B, offset: 0x637A8, size: 0x8, addend: 0x0, symName: '___28-[Mixpanel clearTimedEvents]_block_invoke', symObjAddr: 0x4F44, symBinAddr: 0x7344, symSize: 0xBA }
+  - { offsetInCU: 0x5F64, offset: 0x63871, size: 0x8, addend: 0x0, symName: '-[Mixpanel reset]', symObjAddr: 0x4FFE, symBinAddr: 0x73FE, symSize: 0x82 }
+  - { offsetInCU: 0x5FEA, offset: 0x638F7, size: 0x8, addend: 0x0, symName: '___17-[Mixpanel reset]_block_invoke', symObjAddr: 0x5080, symBinAddr: 0x7480, symSize: 0x223 }
+  - { offsetInCU: 0x6200, offset: 0x63B0D, size: 0x8, addend: 0x0, symName: '-[Mixpanel optOutTracking]', symObjAddr: 0x52A3, symBinAddr: 0x76A3, symSize: 0x177 }
+  - { offsetInCU: 0x636A, offset: 0x63C77, size: 0x8, addend: 0x0, symName: '___26-[Mixpanel optOutTracking]_block_invoke', symObjAddr: 0x541A, symBinAddr: 0x781A, symSize: 0x151 }
+  - { offsetInCU: 0x64E3, offset: 0x63DF0, size: 0x8, addend: 0x0, symName: '-[Mixpanel optInTracking]', symObjAddr: 0x556B, symBinAddr: 0x796B, symSize: 0x16 }
+  - { offsetInCU: 0x6536, offset: 0x63E43, size: 0x8, addend: 0x0, symName: '-[Mixpanel optInTrackingForDistinctID:]', symObjAddr: 0x5581, symBinAddr: 0x7981, symSize: 0x14 }
+  - { offsetInCU: 0x659A, offset: 0x63EA7, size: 0x8, addend: 0x0, symName: '-[Mixpanel optInTrackingForDistinctID:withEventProperties:]', symObjAddr: 0x5595, symBinAddr: 0x7995, symSize: 0xD7 }
+  - { offsetInCU: 0x66CB, offset: 0x63FD8, size: 0x8, addend: 0x0, symName: '-[Mixpanel hasOptedOutTracking]', symObjAddr: 0x566C, symBinAddr: 0x7A6C, symSize: 0x12 }
+  - { offsetInCU: 0x6716, offset: 0x64023, size: 0x8, addend: 0x0, symName: '-[Mixpanel setServerURL:]', symObjAddr: 0x567E, symBinAddr: 0x7A7E, symSize: 0xC2 }
+  - { offsetInCU: 0x680E, offset: 0x6411B, size: 0x8, addend: 0x0, symName: '-[Mixpanel flushInterval]', symObjAddr: 0x5740, symBinAddr: 0x7B40, symSize: 0xA }
+  - { offsetInCU: 0x6844, offset: 0x64151, size: 0x8, addend: 0x0, symName: '-[Mixpanel setFlushInterval:]', symObjAddr: 0x574A, symBinAddr: 0x7B4A, symSize: 0x56 }
+  - { offsetInCU: 0x68DA, offset: 0x641E7, size: 0x8, addend: 0x0, symName: '-[Mixpanel startFlushTimer]', symObjAddr: 0x57A0, symBinAddr: 0x7BA0, symSize: 0x5D }
+  - { offsetInCU: 0x6939, offset: 0x64246, size: 0x8, addend: 0x0, symName: '___27-[Mixpanel startFlushTimer]_block_invoke', symObjAddr: 0x57FD, symBinAddr: 0x7BFD, symSize: 0xEF }
+  - { offsetInCU: 0x6A05, offset: 0x64312, size: 0x8, addend: 0x0, symName: '-[Mixpanel stopFlushTimer]', symObjAddr: 0x58EC, symBinAddr: 0x7CEC, symSize: 0x4B }
+  - { offsetInCU: 0x6A4F, offset: 0x6435C, size: 0x8, addend: 0x0, symName: '___26-[Mixpanel stopFlushTimer]_block_invoke', symObjAddr: 0x5937, symBinAddr: 0x7D37, symSize: 0xD9 }
+  - { offsetInCU: 0x6B1E, offset: 0x6442B, size: 0x8, addend: 0x0, symName: '-[Mixpanel flush]', symObjAddr: 0x5A10, symBinAddr: 0x7E10, symSize: 0x14 }
+  - { offsetInCU: 0x6B6B, offset: 0x64478, size: 0x8, addend: 0x0, symName: '-[Mixpanel flushWithCompletion:]', symObjAddr: 0x5A24, symBinAddr: 0x7E24, symSize: 0xE1 }
+  - { offsetInCU: 0x6C60, offset: 0x6456D, size: 0x8, addend: 0x0, symName: '___32-[Mixpanel flushWithCompletion:]_block_invoke', symObjAddr: 0x5B05, symBinAddr: 0x7F05, symSize: 0x24D }
+  - { offsetInCU: 0x6ED9, offset: 0x647E6, size: 0x8, addend: 0x0, symName: '___32-[Mixpanel flushWithCompletion:]_block_invoke_2', symObjAddr: 0x5D52, symBinAddr: 0x8152, symSize: 0xE1 }
+  - { offsetInCU: 0x6FFF, offset: 0x6490C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64b, symObjAddr: 0x5E33, symBinAddr: 0x8233, symSize: 0x52 }
+  - { offsetInCU: 0x7058, offset: 0x64965, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0x5E85, symBinAddr: 0x8285, symSize: 0x3A }
+  - { offsetInCU: 0x70B3, offset: 0x649C0, size: 0x8, addend: 0x0, symName: '-[Mixpanel filePathFor:]', symObjAddr: 0x5EBF, symBinAddr: 0x82BF, symSize: 0x101 }
+  - { offsetInCU: 0x71E1, offset: 0x64AEE, size: 0x8, addend: 0x0, symName: '-[Mixpanel archive]', symObjAddr: 0x5FC0, symBinAddr: 0x83C0, symSize: 0x13A }
+  - { offsetInCU: 0x7326, offset: 0x64C33, size: 0x8, addend: 0x0, symName: '-[Mixpanel unarchive]', symObjAddr: 0x60FA, symBinAddr: 0x84FA, symSize: 0x426 }
+  - { offsetInCU: 0x777A, offset: 0x65087, size: 0x8, addend: 0x0, symName: '-[Mixpanel description]', symObjAddr: 0x6520, symBinAddr: 0x8920, symSize: 0x71 }
+  - { offsetInCU: 0x77DE, offset: 0x650EB, size: 0x8, addend: 0x0, symName: '-[Mixpanel deviceModel]', symObjAddr: 0x6591, symBinAddr: 0x8991, symSize: 0xCA }
+  - { offsetInCU: 0x78F4, offset: 0x65201, size: 0x8, addend: 0x0, symName: '-[Mixpanel uniqueIdentifierForDevice]', symObjAddr: 0x665B, symBinAddr: 0x8A5B, symSize: 0x93 }
+  - { offsetInCU: 0x79AF, offset: 0x652BC, size: 0x8, addend: 0x0, symName: '-[Mixpanel setCurrentRadio]', symObjAddr: 0x66EE, symBinAddr: 0x8AEE, symSize: 0x71 }
+  - { offsetInCU: 0x7A20, offset: 0x6532D, size: 0x8, addend: 0x0, symName: '___27-[Mixpanel setCurrentRadio]_block_invoke', symObjAddr: 0x675F, symBinAddr: 0x8B5F, symSize: 0xCA }
+  - { offsetInCU: 0x7B2A, offset: 0x65437, size: 0x8, addend: 0x0, symName: '-[Mixpanel currentRadio]', symObjAddr: 0x6829, symBinAddr: 0x8C29, symSize: 0x224 }
+  - { offsetInCU: 0x7CD6, offset: 0x655E3, size: 0x8, addend: 0x0, symName: '___24-[Mixpanel currentRadio]_block_invoke', symObjAddr: 0x6A4D, symBinAddr: 0x8E4D, symSize: 0xED }
+  - { offsetInCU: 0x7E03, offset: 0x65710, size: 0x8, addend: 0x0, symName: '-[Mixpanel libVersion]', symObjAddr: 0x6B3A, symBinAddr: 0x8F3A, symSize: 0x19 }
+  - { offsetInCU: 0x7E43, offset: 0x65750, size: 0x8, addend: 0x0, symName: '+[Mixpanel libVersion]', symObjAddr: 0x6B53, symBinAddr: 0x8F53, symSize: 0xD }
+  - { offsetInCU: 0x7E77, offset: 0x65784, size: 0x8, addend: 0x0, symName: '-[Mixpanel collectDeviceProperties]', symObjAddr: 0x6B60, symBinAddr: 0x8F60, symSize: 0x1EB }
+  - { offsetInCU: 0x7F97, offset: 0x658A4, size: 0x8, addend: 0x0, symName: '-[Mixpanel collectAutomaticProperties]', symObjAddr: 0x6D4B, symBinAddr: 0x914B, symSize: 0x6A2 }
+  - { offsetInCU: 0x8492, offset: 0x65D9F, size: 0x8, addend: 0x0, symName: '-[Mixpanel setUpListeners]', symObjAddr: 0x73ED, symBinAddr: 0x97ED, symSize: 0x187 }
+  - { offsetInCU: 0x8676, offset: 0x65F83, size: 0x8, addend: 0x0, symName: _MixpanelReachabilityCallback, symObjAddr: 0x7574, symBinAddr: 0x9974, symSize: 0x6E }
+  - { offsetInCU: 0x872E, offset: 0x6603B, size: 0x8, addend: 0x0, symName: '-[Mixpanel reachabilityChanged:]', symObjAddr: 0x75E2, symBinAddr: 0x99E2, symSize: 0xFE }
+  - { offsetInCU: 0x8871, offset: 0x6617E, size: 0x8, addend: 0x0, symName: '-[Mixpanel applicationDidBecomeActive:]', symObjAddr: 0x76E0, symBinAddr: 0x9AE0, symSize: 0x30 }
+  - { offsetInCU: 0x88DC, offset: 0x661E9, size: 0x8, addend: 0x0, symName: '-[Mixpanel applicationWillResignActive:]', symObjAddr: 0x7710, symBinAddr: 0x9B10, symSize: 0x30 }
+  - { offsetInCU: 0x8947, offset: 0x66254, size: 0x8, addend: 0x0, symName: '-[Mixpanel applicationDidEnterBackground:]', symObjAddr: 0x7740, symBinAddr: 0x9B40, symSize: 0x39B }
+  - { offsetInCU: 0x8C7A, offset: 0x66587, size: 0x8, addend: 0x0, symName: '___42-[Mixpanel applicationDidEnterBackground:]_block_invoke', symObjAddr: 0x7ADB, symBinAddr: 0x9EDB, symSize: 0x94 }
+  - { offsetInCU: 0x8D1B, offset: 0x66628, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x7B6F, symBinAddr: 0x9F6F, symSize: 0x30 }
+  - { offsetInCU: 0x8D50, offset: 0x6665D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x7B9F, symBinAddr: 0x9F9F, symSize: 0x27 }
+  - { offsetInCU: 0x8D7B, offset: 0x66688, size: 0x8, addend: 0x0, symName: '___42-[Mixpanel applicationDidEnterBackground:]_block_invoke.682', symObjAddr: 0x7BC6, symBinAddr: 0x9FC6, symSize: 0x67 }
+  - { offsetInCU: 0x8E45, offset: 0x66752, size: 0x8, addend: 0x0, symName: '___42-[Mixpanel applicationDidEnterBackground:]_block_invoke.688', symObjAddr: 0x7C2D, symBinAddr: 0xA02D, symSize: 0xE }
+  - { offsetInCU: 0x8E91, offset: 0x6679E, size: 0x8, addend: 0x0, symName: '___42-[Mixpanel applicationDidEnterBackground:]_block_invoke_2', symObjAddr: 0x7C3B, symBinAddr: 0xA03B, symSize: 0xCE }
+  - { offsetInCU: 0x8F74, offset: 0x66881, size: 0x8, addend: 0x0, symName: '-[Mixpanel applicationWillEnterForeground:]', symObjAddr: 0x7D09, symBinAddr: 0xA109, symSize: 0x85 }
+  - { offsetInCU: 0x9008, offset: 0x66915, size: 0x8, addend: 0x0, symName: '___43-[Mixpanel applicationWillEnterForeground:]_block_invoke', symObjAddr: 0x7D8E, symBinAddr: 0xA18E, symSize: 0x108 }
+  - { offsetInCU: 0x9119, offset: 0x66A26, size: 0x8, addend: 0x0, symName: '-[Mixpanel sendHttpEvent:apiToken:distinctId:]', symObjAddr: 0x7E96, symBinAddr: 0xA296, symSize: 0x2B }
+  - { offsetInCU: 0x91AD, offset: 0x66ABA, size: 0x8, addend: 0x0, symName: '___46-[Mixpanel sendHttpEvent:apiToken:distinctId:]_block_invoke', symObjAddr: 0x7EC1, symBinAddr: 0xA2C1, symSize: 0x6 }
+  - { offsetInCU: 0x91FD, offset: 0x66B0A, size: 0x8, addend: 0x0, symName: '-[Mixpanel sendHttpEvent:apiToken:distinctId:properties:]', symObjAddr: 0x7EC7, symBinAddr: 0xA2C7, symSize: 0x21 }
+  - { offsetInCU: 0x92AA, offset: 0x66BB7, size: 0x8, addend: 0x0, symName: '___57-[Mixpanel sendHttpEvent:apiToken:distinctId:properties:]_block_invoke', symObjAddr: 0x7EE8, symBinAddr: 0xA2E8, symSize: 0x6 }
+  - { offsetInCU: 0x92FA, offset: 0x66C07, size: 0x8, addend: 0x0, symName: '-[Mixpanel sendHttpEvent:apiToken:distinctId:properties:updatePeople:completionHandler:]', symObjAddr: 0x7EEE, symBinAddr: 0xA2EE, symSize: 0x6DD }
+  - { offsetInCU: 0x9835, offset: 0x67142, size: 0x8, addend: 0x0, symName: '-[Mixpanel setEnableLogging:]', symObjAddr: 0x85CB, symBinAddr: 0xA9CB, symSize: 0x51 }
+  - { offsetInCU: 0x98AA, offset: 0x671B7, size: 0x8, addend: 0x0, symName: '-[Mixpanel enableLogging]', symObjAddr: 0x861C, symBinAddr: 0xAA1C, symSize: 0x4B }
+  - { offsetInCU: 0x990A, offset: 0x67217, size: 0x8, addend: 0x0, symName: '-[Mixpanel persistence]', symObjAddr: 0x8667, symBinAddr: 0xAA67, symSize: 0x14 }
+  - { offsetInCU: 0x9941, offset: 0x6724E, size: 0x8, addend: 0x0, symName: '-[Mixpanel setPersistence:]', symObjAddr: 0x867B, symBinAddr: 0xAA7B, symSize: 0xF }
+  - { offsetInCU: 0x9980, offset: 0x6728D, size: 0x8, addend: 0x0, symName: '-[Mixpanel people]', symObjAddr: 0x868A, symBinAddr: 0xAA8A, symSize: 0x14 }
+  - { offsetInCU: 0x99B7, offset: 0x672C4, size: 0x8, addend: 0x0, symName: '-[Mixpanel setPeople:]', symObjAddr: 0x869E, symBinAddr: 0xAA9E, symSize: 0xF }
+  - { offsetInCU: 0x99F6, offset: 0x67303, size: 0x8, addend: 0x0, symName: '-[Mixpanel distinctId]', symObjAddr: 0x86AD, symBinAddr: 0xAAAD, symSize: 0x14 }
+  - { offsetInCU: 0x9A2D, offset: 0x6733A, size: 0x8, addend: 0x0, symName: '-[Mixpanel setDistinctId:]', symObjAddr: 0x86C1, symBinAddr: 0xAAC1, symSize: 0xF }
+  - { offsetInCU: 0x9A6C, offset: 0x67379, size: 0x8, addend: 0x0, symName: '-[Mixpanel anonymousId]', symObjAddr: 0x86D0, symBinAddr: 0xAAD0, symSize: 0x14 }
+  - { offsetInCU: 0x9AA3, offset: 0x673B0, size: 0x8, addend: 0x0, symName: '-[Mixpanel setAnonymousId:]', symObjAddr: 0x86E4, symBinAddr: 0xAAE4, symSize: 0xF }
+  - { offsetInCU: 0x9AE2, offset: 0x673EF, size: 0x8, addend: 0x0, symName: '-[Mixpanel userId]', symObjAddr: 0x86F3, symBinAddr: 0xAAF3, symSize: 0x14 }
+  - { offsetInCU: 0x9B19, offset: 0x67426, size: 0x8, addend: 0x0, symName: '-[Mixpanel setUserId:]', symObjAddr: 0x8707, symBinAddr: 0xAB07, symSize: 0xF }
+  - { offsetInCU: 0x9B58, offset: 0x67465, size: 0x8, addend: 0x0, symName: '-[Mixpanel alias]', symObjAddr: 0x8716, symBinAddr: 0xAB16, symSize: 0x14 }
+  - { offsetInCU: 0x9B8F, offset: 0x6749C, size: 0x8, addend: 0x0, symName: '-[Mixpanel setAlias:]', symObjAddr: 0x872A, symBinAddr: 0xAB2A, symSize: 0xF }
+  - { offsetInCU: 0x9BCE, offset: 0x674DB, size: 0x8, addend: 0x0, symName: '-[Mixpanel hadPersistedDistinctId]', symObjAddr: 0x8739, symBinAddr: 0xAB39, symSize: 0x9 }
+  - { offsetInCU: 0x9C03, offset: 0x67510, size: 0x8, addend: 0x0, symName: '-[Mixpanel setHadPersistedDistinctId:]', symObjAddr: 0x8742, symBinAddr: 0xAB42, symSize: 0x9 }
+  - { offsetInCU: 0x9C40, offset: 0x6754D, size: 0x8, addend: 0x0, symName: '-[Mixpanel serverURL]', symObjAddr: 0x874B, symBinAddr: 0xAB4B, symSize: 0xA }
+  - { offsetInCU: 0x9C75, offset: 0x67582, size: 0x8, addend: 0x0, symName: '-[Mixpanel flushOnBackground]', symObjAddr: 0x8755, symBinAddr: 0xAB55, symSize: 0xB }
+  - { offsetInCU: 0x9CAA, offset: 0x675B7, size: 0x8, addend: 0x0, symName: '-[Mixpanel setFlushOnBackground:]', symObjAddr: 0x8760, symBinAddr: 0xAB60, symSize: 0x9 }
+  - { offsetInCU: 0x9CE7, offset: 0x675F4, size: 0x8, addend: 0x0, symName: '-[Mixpanel useUniqueDistinctId]', symObjAddr: 0x8769, symBinAddr: 0xAB69, symSize: 0xB }
+  - { offsetInCU: 0x9D1C, offset: 0x67629, size: 0x8, addend: 0x0, symName: '-[Mixpanel setUseUniqueDistinctId:]', symObjAddr: 0x8774, symBinAddr: 0xAB74, symSize: 0x9 }
+  - { offsetInCU: 0x9D59, offset: 0x67666, size: 0x8, addend: 0x0, symName: '-[Mixpanel trackAutomaticEventsEnabled]', symObjAddr: 0x877D, symBinAddr: 0xAB7D, symSize: 0x9 }
+  - { offsetInCU: 0x9D8E, offset: 0x6769B, size: 0x8, addend: 0x0, symName: '-[Mixpanel delegate]', symObjAddr: 0x8786, symBinAddr: 0xAB86, symSize: 0x16 }
+  - { offsetInCU: 0x9DC5, offset: 0x676D2, size: 0x8, addend: 0x0, symName: '-[Mixpanel setDelegate:]', symObjAddr: 0x879C, symBinAddr: 0xAB9C, symSize: 0x11 }
+  - { offsetInCU: 0x9E04, offset: 0x67711, size: 0x8, addend: 0x0, symName: '-[Mixpanel reachability]', symObjAddr: 0x87AD, symBinAddr: 0xABAD, symSize: 0xA }
+  - { offsetInCU: 0x9E39, offset: 0x67746, size: 0x8, addend: 0x0, symName: '-[Mixpanel setReachability:]', symObjAddr: 0x87B7, symBinAddr: 0xABB7, symSize: 0xA }
+  - { offsetInCU: 0x9E76, offset: 0x67783, size: 0x8, addend: 0x0, symName: '-[Mixpanel automaticEvents]', symObjAddr: 0x87C1, symBinAddr: 0xABC1, symSize: 0x14 }
+  - { offsetInCU: 0x9EAD, offset: 0x677BA, size: 0x8, addend: 0x0, symName: '-[Mixpanel setAutomaticEvents:]', symObjAddr: 0x87D5, symBinAddr: 0xABD5, symSize: 0xF }
+  - { offsetInCU: 0x9EEC, offset: 0x677F9, size: 0x8, addend: 0x0, symName: '-[Mixpanel taskId]', symObjAddr: 0x87E4, symBinAddr: 0xABE4, symSize: 0xA }
+  - { offsetInCU: 0x9F21, offset: 0x6782E, size: 0x8, addend: 0x0, symName: '-[Mixpanel setTaskId:]', symObjAddr: 0x87EE, symBinAddr: 0xABEE, symSize: 0xA }
+  - { offsetInCU: 0x9F5E, offset: 0x6786B, size: 0x8, addend: 0x0, symName: '-[Mixpanel cachedGroups]', symObjAddr: 0x87F8, symBinAddr: 0xABF8, symSize: 0x14 }
+  - { offsetInCU: 0x9F95, offset: 0x678A2, size: 0x8, addend: 0x0, symName: '-[Mixpanel setCachedGroups:]', symObjAddr: 0x880C, symBinAddr: 0xAC0C, symSize: 0xF }
+  - { offsetInCU: 0x9FD4, offset: 0x678E1, size: 0x8, addend: 0x0, symName: '-[Mixpanel network]', symObjAddr: 0x881B, symBinAddr: 0xAC1B, symSize: 0x14 }
+  - { offsetInCU: 0xA00B, offset: 0x67918, size: 0x8, addend: 0x0, symName: '-[Mixpanel setNetwork:]', symObjAddr: 0x882F, symBinAddr: 0xAC2F, symSize: 0xF }
+  - { offsetInCU: 0xA04A, offset: 0x67957, size: 0x8, addend: 0x0, symName: '-[Mixpanel apiToken]', symObjAddr: 0x883E, symBinAddr: 0xAC3E, symSize: 0xD }
+  - { offsetInCU: 0xA07F, offset: 0x6798C, size: 0x8, addend: 0x0, symName: '-[Mixpanel setApiToken:]', symObjAddr: 0x884B, symBinAddr: 0xAC4B, symSize: 0xF }
+  - { offsetInCU: 0xA0BE, offset: 0x679CB, size: 0x8, addend: 0x0, symName: '-[Mixpanel superProperties]', symObjAddr: 0x885A, symBinAddr: 0xAC5A, symSize: 0x14 }
+  - { offsetInCU: 0xA0F5, offset: 0x67A02, size: 0x8, addend: 0x0, symName: '-[Mixpanel setSuperProperties:]', symObjAddr: 0x886E, symBinAddr: 0xAC6E, symSize: 0xF }
+  - { offsetInCU: 0xA134, offset: 0x67A41, size: 0x8, addend: 0x0, symName: '-[Mixpanel automaticProperties]', symObjAddr: 0x887D, symBinAddr: 0xAC7D, symSize: 0x14 }
+  - { offsetInCU: 0xA16B, offset: 0x67A78, size: 0x8, addend: 0x0, symName: '-[Mixpanel setAutomaticProperties:]', symObjAddr: 0x8891, symBinAddr: 0xAC91, symSize: 0xF }
+  - { offsetInCU: 0xA1AA, offset: 0x67AB7, size: 0x8, addend: 0x0, symName: '-[Mixpanel timer]', symObjAddr: 0x88A0, symBinAddr: 0xACA0, symSize: 0xD }
+  - { offsetInCU: 0xA1DF, offset: 0x67AEC, size: 0x8, addend: 0x0, symName: '-[Mixpanel setTimer:]', symObjAddr: 0x88AD, symBinAddr: 0xACAD, symSize: 0x14 }
+  - { offsetInCU: 0xA21E, offset: 0x67B2B, size: 0x8, addend: 0x0, symName: '-[Mixpanel serialQueue]', symObjAddr: 0x88C1, symBinAddr: 0xACC1, symSize: 0xD }
+  - { offsetInCU: 0xA253, offset: 0x67B60, size: 0x8, addend: 0x0, symName: '-[Mixpanel setSerialQueue:]', symObjAddr: 0x88CE, symBinAddr: 0xACCE, symSize: 0x14 }
+  - { offsetInCU: 0xA292, offset: 0x67B9F, size: 0x8, addend: 0x0, symName: '-[Mixpanel networkQueue]', symObjAddr: 0x88E2, symBinAddr: 0xACE2, symSize: 0xD }
+  - { offsetInCU: 0xA2C7, offset: 0x67BD4, size: 0x8, addend: 0x0, symName: '-[Mixpanel setNetworkQueue:]', symObjAddr: 0x88EF, symBinAddr: 0xACEF, symSize: 0x14 }
+  - { offsetInCU: 0xA306, offset: 0x67C13, size: 0x8, addend: 0x0, symName: '-[Mixpanel timedEvents]', symObjAddr: 0x8903, symBinAddr: 0xAD03, symSize: 0xD }
+  - { offsetInCU: 0xA33B, offset: 0x67C48, size: 0x8, addend: 0x0, symName: '-[Mixpanel setTimedEvents:]', symObjAddr: 0x8910, symBinAddr: 0xAD10, symSize: 0x14 }
+  - { offsetInCU: 0xA37A, offset: 0x67C87, size: 0x8, addend: 0x0, symName: '-[Mixpanel sessionMetadata]', symObjAddr: 0x8924, symBinAddr: 0xAD24, symSize: 0xD }
+  - { offsetInCU: 0xA3AF, offset: 0x67CBC, size: 0x8, addend: 0x0, symName: '-[Mixpanel setSessionMetadata:]', symObjAddr: 0x8931, symBinAddr: 0xAD31, symSize: 0x14 }
+  - { offsetInCU: 0xA3EE, offset: 0x67CFB, size: 0x8, addend: 0x0, symName: '-[Mixpanel optOutStatus]', symObjAddr: 0x8945, symBinAddr: 0xAD45, symSize: 0x9 }
+  - { offsetInCU: 0xA423, offset: 0x67D30, size: 0x8, addend: 0x0, symName: '-[Mixpanel setOptOutStatus:]', symObjAddr: 0x894E, symBinAddr: 0xAD4E, symSize: 0x9 }
+  - { offsetInCU: 0xA460, offset: 0x67D6D, size: 0x8, addend: 0x0, symName: '-[Mixpanel optOutStatusNotSet]', symObjAddr: 0x8957, symBinAddr: 0xAD57, symSize: 0x9 }
+  - { offsetInCU: 0xA495, offset: 0x67DA2, size: 0x8, addend: 0x0, symName: '-[Mixpanel setOptOutStatusNotSet:]', symObjAddr: 0x8960, symBinAddr: 0xAD60, symSize: 0x9 }
+  - { offsetInCU: 0xA4D2, offset: 0x67DDF, size: 0x8, addend: 0x0, symName: '-[Mixpanel savedUrbanAirshipChannelID]', symObjAddr: 0x8969, symBinAddr: 0xAD69, symSize: 0xD }
+  - { offsetInCU: 0xA507, offset: 0x67E14, size: 0x8, addend: 0x0, symName: '-[Mixpanel setSavedUrbanAirshipChannelID:]', symObjAddr: 0x8976, symBinAddr: 0xAD76, symSize: 0x14 }
+  - { offsetInCU: 0xA546, offset: 0x67E53, size: 0x8, addend: 0x0, symName: '-[Mixpanel .cxx_destruct]', symObjAddr: 0x898A, symBinAddr: 0xAD8A, symSize: 0x116 }
+  - { offsetInCU: 0x27, offset: 0x69052, size: 0x8, addend: 0x0, symName: '+[MixpanelExceptionHandler sharedHandler]', symObjAddr: 0x0, symBinAddr: 0xAEA0, symSize: 0x30 }
+  - { offsetInCU: 0x3A, offset: 0x69065, size: 0x8, addend: 0x0, symName: '+[MixpanelExceptionHandler sharedHandler]', symObjAddr: 0x0, symBinAddr: 0xAEA0, symSize: 0x30 }
+  - { offsetInCU: 0x64, offset: 0x6908F, size: 0x8, addend: 0x0, symName: _sharedHandler.gSharedHandler, symObjAddr: 0x6C98, symBinAddr: 0x23EF0, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0x690A5, size: 0x8, addend: 0x0, symName: _sharedHandler.onceToken, symObjAddr: 0x6CA0, symBinAddr: 0x23EF8, symSize: 0x0 }
+  - { offsetInCU: 0x14C, offset: 0x69177, size: 0x8, addend: 0x0, symName: _MPLogWarning, symObjAddr: 0x447, symBinAddr: 0xB2E7, symSize: 0x1F9 }
+  - { offsetInCU: 0x356, offset: 0x69381, size: 0x8, addend: 0x0, symName: _UncaughtExceptionCount, symObjAddr: 0x6CA8, symBinAddr: 0x23F00, symSize: 0x0 }
+  - { offsetInCU: 0x407, offset: 0x69432, size: 0x8, addend: 0x0, symName: '___41+[MixpanelExceptionHandler sharedHandler]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xAED0, symSize: 0x35 }
+  - { offsetInCU: 0x446, offset: 0x69471, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler init]', symObjAddr: 0x65, symBinAddr: 0xAF05, symSize: 0x86 }
+  - { offsetInCU: 0x4A9, offset: 0x694D4, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler dealloc]', symObjAddr: 0xEB, symBinAddr: 0xAF8B, symSize: 0x3A }
+  - { offsetInCU: 0x4DC, offset: 0x69507, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler setupHandlers]', symObjAddr: 0x125, symBinAddr: 0xAFC5, symSize: 0xAF }
+  - { offsetInCU: 0x61A, offset: 0x69645, size: 0x8, addend: 0x0, symName: _MPHandleException, symObjAddr: 0x1D4, symBinAddr: 0xB074, symSize: 0x9F }
+  - { offsetInCU: 0x70B, offset: 0x69736, size: 0x8, addend: 0x0, symName: _MPSignalHandler, symObjAddr: 0x273, symBinAddr: 0xB113, symSize: 0x1D4 }
+  - { offsetInCU: 0x96D, offset: 0x69998, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler addMixpanelInstance:]', symObjAddr: 0x640, symBinAddr: 0xB4E0, symSize: 0x69 }
+  - { offsetInCU: 0xA0D, offset: 0x69A38, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler mp_handleUncaughtException:]', symObjAddr: 0x6A9, symBinAddr: 0xB549, symSize: 0xCA }
+  - { offsetInCU: 0xAE9, offset: 0x69B14, size: 0x8, addend: 0x0, symName: '___55-[MixpanelExceptionHandler mp_handleUncaughtException:]_block_invoke', symObjAddr: 0x773, symBinAddr: 0xB613, symSize: 0xB3 }
+  - { offsetInCU: 0xC03, offset: 0x69C2E, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler defaultExceptionHandler]', symObjAddr: 0x844, symBinAddr: 0xB6C6, symSize: 0xA }
+  - { offsetInCU: 0xC38, offset: 0x69C63, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler setDefaultExceptionHandler:]', symObjAddr: 0x84E, symBinAddr: 0xB6D0, symSize: 0xA }
+  - { offsetInCU: 0xC75, offset: 0x69CA0, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler prev_signal_handlers]', symObjAddr: 0x858, symBinAddr: 0xB6DA, symSize: 0xA }
+  - { offsetInCU: 0xCAA, offset: 0x69CD5, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler setPrev_signal_handlers:]', symObjAddr: 0x862, symBinAddr: 0xB6E4, symSize: 0xA }
+  - { offsetInCU: 0xCE7, offset: 0x69D12, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler mixpanelInstances]', symObjAddr: 0x86C, symBinAddr: 0xB6EE, symSize: 0xA }
+  - { offsetInCU: 0xD1C, offset: 0x69D47, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler setMixpanelInstances:]', symObjAddr: 0x876, symBinAddr: 0xB6F8, symSize: 0x11 }
+  - { offsetInCU: 0xD5B, offset: 0x69D86, size: 0x8, addend: 0x0, symName: '-[MixpanelExceptionHandler .cxx_destruct]', symObjAddr: 0x887, symBinAddr: 0xB709, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x6A277, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup init:groupKey:groupID:]', symObjAddr: 0x0, symBinAddr: 0xB719, symSize: 0xC4 }
+  - { offsetInCU: 0x3A, offset: 0x6A28A, size: 0x8, addend: 0x0, symName: _MPLogInfo, symObjAddr: 0xBA5, symBinAddr: 0xC2BE, symSize: 0x1E4 }
+  - { offsetInCU: 0x5E1, offset: 0x6A831, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup init:groupKey:groupID:]', symObjAddr: 0x0, symBinAddr: 0xB719, symSize: 0xC4 }
+  - { offsetInCU: 0x712, offset: 0x6A962, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup set:]', symObjAddr: 0xC4, symBinAddr: 0xB7DD, symSize: 0x9C }
+  - { offsetInCU: 0x7D9, offset: 0x6AA29, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup setOnce:]', symObjAddr: 0x160, symBinAddr: 0xB879, symSize: 0x9C }
+  - { offsetInCU: 0x8A0, offset: 0x6AAF0, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup unset:]', symObjAddr: 0x1FC, symBinAddr: 0xB915, symSize: 0x129 }
+  - { offsetInCU: 0x98C, offset: 0x6ABDC, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup union:values:]', symObjAddr: 0x325, symBinAddr: 0xBA3E, symSize: 0xFF }
+  - { offsetInCU: 0xA93, offset: 0x6ACE3, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup remove:value:]', symObjAddr: 0x424, symBinAddr: 0xBB3D, symSize: 0xFF }
+  - { offsetInCU: 0xB9A, offset: 0x6ADEA, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup deleteGroup]', symObjAddr: 0x523, symBinAddr: 0xBC3C, symSize: 0x180 }
+  - { offsetInCU: 0xD08, offset: 0x6AF58, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup addGroupRecordToQueueWithAction:andProperties:]', symObjAddr: 0x6A3, symBinAddr: 0xBDBC, symSize: 0x23B }
+  - { offsetInCU: 0xF83, offset: 0x6B1D3, size: 0x8, addend: 0x0, symName: '___63-[MixpanelGroup addGroupRecordToQueueWithAction:andProperties:]_block_invoke', symObjAddr: 0x8DE, symBinAddr: 0xBFF7, symSize: 0x2C7 }
+  - { offsetInCU: 0x12DF, offset: 0x6B52F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56s64s, symObjAddr: 0xD89, symBinAddr: 0xC4A2, symSize: 0x3A }
+  - { offsetInCU: 0x1344, offset: 0x6B594, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup mixpanel]', symObjAddr: 0xDFD, symBinAddr: 0xC4DC, symSize: 0x16 }
+  - { offsetInCU: 0x137B, offset: 0x6B5CB, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup setMixpanel:]', symObjAddr: 0xE13, symBinAddr: 0xC4F2, symSize: 0x11 }
+  - { offsetInCU: 0x13BA, offset: 0x6B60A, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup groupKey]', symObjAddr: 0xE24, symBinAddr: 0xC503, symSize: 0xA }
+  - { offsetInCU: 0x13EF, offset: 0x6B63F, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup setGroupKey:]', symObjAddr: 0xE2E, symBinAddr: 0xC50D, symSize: 0xF }
+  - { offsetInCU: 0x142E, offset: 0x6B67E, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup groupID]', symObjAddr: 0xE3D, symBinAddr: 0xC51C, symSize: 0xA }
+  - { offsetInCU: 0x1463, offset: 0x6B6B3, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup setGroupID:]', symObjAddr: 0xE47, symBinAddr: 0xC526, symSize: 0xF }
+  - { offsetInCU: 0x14A2, offset: 0x6B6F2, size: 0x8, addend: 0x0, symName: '-[MixpanelGroup .cxx_destruct]', symObjAddr: 0xE56, symBinAddr: 0xC535, symSize: 0x31 }
+  - { offsetInCU: 0x27, offset: 0x6B855, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity initWithDistinctId:peopleDistinctId:anonymousId:userId:alias:hadPersistedDistinctId:]', symObjAddr: 0x0, symBinAddr: 0xC566, symSize: 0x125 }
+  - { offsetInCU: 0xFE, offset: 0x6B92C, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity initWithDistinctId:peopleDistinctId:anonymousId:userId:alias:hadPersistedDistinctId:]', symObjAddr: 0x0, symBinAddr: 0xC566, symSize: 0x125 }
+  - { offsetInCU: 0x2F4, offset: 0x6BB22, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity distinctId]', symObjAddr: 0x125, symBinAddr: 0xC68B, symSize: 0xA }
+  - { offsetInCU: 0x329, offset: 0x6BB57, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity setDistinctId:]', symObjAddr: 0x12F, symBinAddr: 0xC695, symSize: 0xF }
+  - { offsetInCU: 0x368, offset: 0x6BB96, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity peopleDistinctId]', symObjAddr: 0x13E, symBinAddr: 0xC6A4, symSize: 0xA }
+  - { offsetInCU: 0x39D, offset: 0x6BBCB, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity setPeopleDistinctId:]', symObjAddr: 0x148, symBinAddr: 0xC6AE, symSize: 0xF }
+  - { offsetInCU: 0x3DC, offset: 0x6BC0A, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity anonymousId]', symObjAddr: 0x157, symBinAddr: 0xC6BD, symSize: 0xA }
+  - { offsetInCU: 0x411, offset: 0x6BC3F, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity setAnonymousId:]', symObjAddr: 0x161, symBinAddr: 0xC6C7, symSize: 0xF }
+  - { offsetInCU: 0x450, offset: 0x6BC7E, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity userId]', symObjAddr: 0x170, symBinAddr: 0xC6D6, symSize: 0xA }
+  - { offsetInCU: 0x485, offset: 0x6BCB3, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity setUserId:]', symObjAddr: 0x17A, symBinAddr: 0xC6E0, symSize: 0xF }
+  - { offsetInCU: 0x4C4, offset: 0x6BCF2, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity alias]', symObjAddr: 0x189, symBinAddr: 0xC6EF, symSize: 0xA }
+  - { offsetInCU: 0x4F9, offset: 0x6BD27, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity setAlias:]', symObjAddr: 0x193, symBinAddr: 0xC6F9, symSize: 0xF }
+  - { offsetInCU: 0x538, offset: 0x6BD66, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity hadPersistedDistinctId]', symObjAddr: 0x1A2, symBinAddr: 0xC708, symSize: 0x9 }
+  - { offsetInCU: 0x56D, offset: 0x6BD9B, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity setHadPersistedDistinctId:]', symObjAddr: 0x1AB, symBinAddr: 0xC711, symSize: 0x9 }
+  - { offsetInCU: 0x5AA, offset: 0x6BDD8, size: 0x8, addend: 0x0, symName: '-[MixpanelIdentity .cxx_destruct]', symObjAddr: 0x1B4, symBinAddr: 0xC71A, symSize: 0x49 }
+  - { offsetInCU: 0x27, offset: 0x6BE4F, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople initWithMixpanel:]', symObjAddr: 0x0, symBinAddr: 0xC763, symSize: 0x8F }
+  - { offsetInCU: 0x3A, offset: 0x6BE62, size: 0x8, addend: 0x0, symName: _MPLogInfo, symObjAddr: 0xC46, symBinAddr: 0xD3A9, symSize: 0x1F9 }
+  - { offsetInCU: 0x60C, offset: 0x6C434, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople initWithMixpanel:]', symObjAddr: 0x0, symBinAddr: 0xC763, symSize: 0x8F }
+  - { offsetInCU: 0x6DF, offset: 0x6C507, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople description]', symObjAddr: 0x8F, symBinAddr: 0xC7F2, symSize: 0xA7 }
+  - { offsetInCU: 0x76E, offset: 0x6C596, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople deviceSystemVersion]', symObjAddr: 0x136, symBinAddr: 0xC899, symSize: 0x57 }
+  - { offsetInCU: 0x7CD, offset: 0x6C5F5, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople collectAutomaticPeopleProperties]', symObjAddr: 0x18D, symBinAddr: 0xC8F0, symSize: 0x2A4 }
+  - { offsetInCU: 0xA04, offset: 0x6C82C, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople addPeopleRecordToQueueWithAction:andProperties:]', symObjAddr: 0x431, symBinAddr: 0xCB94, symSize: 0x254 }
+  - { offsetInCU: 0xCBE, offset: 0x6CAE6, size: 0x8, addend: 0x0, symName: '___65-[MixpanelPeople addPeopleRecordToQueueWithAction:andProperties:]_block_invoke', symObjAddr: 0x685, symBinAddr: 0xCDE8, symSize: 0x5C1 }
+  - { offsetInCU: 0x1292, offset: 0x6D0BA, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople set:]', symObjAddr: 0xEB3, symBinAddr: 0xD5A2, symSize: 0x6C }
+  - { offsetInCU: 0x1334, offset: 0x6D15C, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople set:to:]', symObjAddr: 0xF1F, symBinAddr: 0xD60E, symSize: 0xDE }
+  - { offsetInCU: 0x1403, offset: 0x6D22B, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople setOnce:]', symObjAddr: 0xFFD, symBinAddr: 0xD6EC, symSize: 0x6C }
+  - { offsetInCU: 0x14A5, offset: 0x6D2CD, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople unset:]', symObjAddr: 0x1069, symBinAddr: 0xD758, symSize: 0x166 }
+  - { offsetInCU: 0x1592, offset: 0x6D3BA, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople increment:]', symObjAddr: 0x11CF, symBinAddr: 0xD8BE, symSize: 0x145 }
+  - { offsetInCU: 0x167D, offset: 0x6D4A5, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople increment:by:]', symObjAddr: 0x1314, symBinAddr: 0xDA03, symSize: 0xDE }
+  - { offsetInCU: 0x174C, offset: 0x6D574, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople append:]', symObjAddr: 0x13F2, symBinAddr: 0xDAE1, symSize: 0x6C }
+  - { offsetInCU: 0x17EE, offset: 0x6D616, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople union:]', symObjAddr: 0x145E, symBinAddr: 0xDB4D, symSize: 0x145 }
+  - { offsetInCU: 0x18D9, offset: 0x6D701, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople remove:]', symObjAddr: 0x15A3, symBinAddr: 0xDC92, symSize: 0x6C }
+  - { offsetInCU: 0x197B, offset: 0x6D7A3, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople merge:]', symObjAddr: 0x160F, symBinAddr: 0xDCFE, symSize: 0x1C }
+  - { offsetInCU: 0x19D9, offset: 0x6D801, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople trackCharge:]', symObjAddr: 0x162B, symBinAddr: 0xDD1A, symSize: 0x14 }
+  - { offsetInCU: 0x1A3B, offset: 0x6D863, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople trackCharge:withProperties:]', symObjAddr: 0x163F, symBinAddr: 0xDD2E, symSize: 0x160 }
+  - { offsetInCU: 0x1B8C, offset: 0x6D9B4, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople clearCharges]', symObjAddr: 0x179F, symBinAddr: 0xDE8E, symSize: 0x9F }
+  - { offsetInCU: 0x1BF3, offset: 0x6DA1B, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople deleteUser]', symObjAddr: 0x183E, symBinAddr: 0xDF2D, symSize: 0x23 }
+  - { offsetInCU: 0x1C39, offset: 0x6DA61, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople ignoreTime]', symObjAddr: 0x1861, symBinAddr: 0xDF50, symSize: 0xB }
+  - { offsetInCU: 0x1C6E, offset: 0x6DA96, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople setIgnoreTime:]', symObjAddr: 0x186C, symBinAddr: 0xDF5B, symSize: 0x9 }
+  - { offsetInCU: 0x1CAB, offset: 0x6DAD3, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople mixpanel]', symObjAddr: 0x1875, symBinAddr: 0xDF64, symSize: 0x16 }
+  - { offsetInCU: 0x1CE2, offset: 0x6DB0A, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople setMixpanel:]', symObjAddr: 0x188B, symBinAddr: 0xDF7A, symSize: 0x11 }
+  - { offsetInCU: 0x1D21, offset: 0x6DB49, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople distinctId]', symObjAddr: 0x189C, symBinAddr: 0xDF8B, symSize: 0xA }
+  - { offsetInCU: 0x1D56, offset: 0x6DB7E, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople setDistinctId:]', symObjAddr: 0x18A6, symBinAddr: 0xDF95, symSize: 0xF }
+  - { offsetInCU: 0x1D95, offset: 0x6DBBD, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople automaticPeopleProperties]', symObjAddr: 0x18B5, symBinAddr: 0xDFA4, symSize: 0xA }
+  - { offsetInCU: 0x1DCA, offset: 0x6DBF2, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople setAutomaticPeopleProperties:]', symObjAddr: 0x18BF, symBinAddr: 0xDFAE, symSize: 0x11 }
+  - { offsetInCU: 0x1E09, offset: 0x6DC31, size: 0x8, addend: 0x0, symName: '-[MixpanelPeople .cxx_destruct]', symObjAddr: 0x18D0, symBinAddr: 0xDFBF, symSize: 0x31 }
+  - { offsetInCU: 0x27, offset: 0x6DDA2, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence initWithToken:]', symObjAddr: 0x0, symBinAddr: 0xDFF0, symSize: 0x98 }
+  - { offsetInCU: 0x46, offset: 0x6DDC1, size: 0x8, addend: 0x0, symName: _MPLogError, symObjAddr: 0x22AD, symBinAddr: 0x1027F, symSize: 0x1F9 }
+  - { offsetInCU: 0x244, offset: 0x6DFBF, size: 0x8, addend: 0x0, symName: _MPLogInfo, symObjAddr: 0x2974, symBinAddr: 0x10946, symSize: 0x1E4 }
+  - { offsetInCU: 0x403, offset: 0x6E17E, size: 0x8, addend: 0x0, symName: _MPLogWarning, symObjAddr: 0x2B58, symBinAddr: 0x10B2A, symSize: 0x1E4 }
+  - { offsetInCU: 0x669, offset: 0x6E3E4, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence initWithToken:]', symObjAddr: 0x0, symBinAddr: 0xDFF0, symSize: 0x98 }
+  - { offsetInCU: 0x6F9, offset: 0x6E474, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence saveEntity:type:]', symObjAddr: 0x98, symBinAddr: 0xE088, symSize: 0x15 }
+  - { offsetInCU: 0x771, offset: 0x6E4EC, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence saveEntity:type:flag:]', symObjAddr: 0xAD, symBinAddr: 0xE09D, symSize: 0xAC }
+  - { offsetInCU: 0x864, offset: 0x6E5DF, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence saveEntities:type:flag:]', symObjAddr: 0x159, symBinAddr: 0xE149, symSize: 0x164 }
+  - { offsetInCU: 0x97F, offset: 0x6E6FA, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence loadEntitiesInBatch:]', symObjAddr: 0x2BD, symBinAddr: 0xE2AD, symSize: 0x14 }
+  - { offsetInCU: 0x9E5, offset: 0x6E760, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence loadEntitiesInBatch:flag:]', symObjAddr: 0x2D1, symBinAddr: 0xE2C1, symSize: 0x2B8 }
+  - { offsetInCU: 0xBCB, offset: 0x6E946, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence removeAutomaticEvents]', symObjAddr: 0x589, symBinAddr: 0xE579, symSize: 0xF0 }
+  - { offsetInCU: 0xCBC, offset: 0x6EA37, size: 0x8, addend: 0x0, symName: '___44-[MixpanelPersistence removeAutomaticEvents]_block_invoke', symObjAddr: 0x679, symBinAddr: 0xE669, symSize: 0xBB }
+  - { offsetInCU: 0xDA8, offset: 0x6EB23, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence removeEntitiesInBatch:ids:]', symObjAddr: 0x752, symBinAddr: 0xE724, symSize: 0x8E }
+  - { offsetInCU: 0xE8D, offset: 0x6EC08, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence identifyPeople]', symObjAddr: 0x7E0, symBinAddr: 0xE7B2, symSize: 0x46 }
+  - { offsetInCU: 0xEF3, offset: 0x6EC6E, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence resetEntities]', symObjAddr: 0x826, symBinAddr: 0xE7F8, symSize: 0x1E9 }
+  - { offsetInCU: 0xFD9, offset: 0x6ED54, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence saveOptOutStatusFlag:apiToken:]', symObjAddr: 0xA0F, symBinAddr: 0xE9E1, symSize: 0x138 }
+  - { offsetInCU: 0x112D, offset: 0x6EEA8, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence optOutStatusNotSet:]', symObjAddr: 0xB47, symBinAddr: 0xEB19, symSize: 0x112 }
+  - { offsetInCU: 0x123C, offset: 0x6EFB7, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence loadOptOutStatusFlagWithApiToken:]', symObjAddr: 0xC59, symBinAddr: 0xEC2B, symSize: 0x101 }
+  - { offsetInCU: 0x1347, offset: 0x6F0C2, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence saveTimedEvents:apiToken:]', symObjAddr: 0xD5A, symBinAddr: 0xED2C, symSize: 0x156 }
+  - { offsetInCU: 0x14CF, offset: 0x6F24A, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence loadTimedEvents:]', symObjAddr: 0xEB0, symBinAddr: 0xEE82, symSize: 0x154 }
+  - { offsetInCU: 0x161E, offset: 0x6F399, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence saveSuperProperties:apiToken:]', symObjAddr: 0x1004, symBinAddr: 0xEFD6, symSize: 0x156 }
+  - { offsetInCU: 0x17A6, offset: 0x6F521, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence loadSuperProperties:]', symObjAddr: 0x115A, symBinAddr: 0xF12C, symSize: 0x154 }
+  - { offsetInCU: 0x18F5, offset: 0x6F670, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence saveIdentity:apiToken:]', symObjAddr: 0x12AE, symBinAddr: 0xF280, symSize: 0x356 }
+  - { offsetInCU: 0x1C27, offset: 0x6F9A2, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence loadIdentity:]', symObjAddr: 0x1604, symBinAddr: 0xF5D6, symSize: 0x2FD }
+  - { offsetInCU: 0x1EDE, offset: 0x6FC59, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence deleteMPUserDefaultsData:]', symObjAddr: 0x1901, symBinAddr: 0xF8D3, symSize: 0x32A }
+  - { offsetInCU: 0x21B5, offset: 0x6FF30, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence migrate]', symObjAddr: 0x1C2B, symBinAddr: 0xFBFD, symSize: 0x458 }
+  - { offsetInCU: 0x2605, offset: 0x70380, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence filePathFor:]', symObjAddr: 0x2083, symBinAddr: 0x10055, symSize: 0x101 }
+  - { offsetInCU: 0x2733, offset: 0x704AE, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence eventsFilePath]', symObjAddr: 0x2184, symBinAddr: 0x10156, symSize: 0x19 }
+  - { offsetInCU: 0x277E, offset: 0x704F9, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence peopleFilePath]', symObjAddr: 0x219D, symBinAddr: 0x1016F, symSize: 0x19 }
+  - { offsetInCU: 0x27C9, offset: 0x70544, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence groupsFilePath]', symObjAddr: 0x21B6, symBinAddr: 0x10188, symSize: 0x19 }
+  - { offsetInCU: 0x2814, offset: 0x7058F, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence propertiesFilePath]', symObjAddr: 0x21CF, symBinAddr: 0x101A1, symSize: 0x19 }
+  - { offsetInCU: 0x285F, offset: 0x705DA, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence optOutFilePath]', symObjAddr: 0x21E8, symBinAddr: 0x101BA, symSize: 0x19 }
+  - { offsetInCU: 0x28AA, offset: 0x70625, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence removeArchivedFileAtPath:]', symObjAddr: 0x2201, symBinAddr: 0x101D3, symSize: 0xAC }
+  - { offsetInCU: 0x2A01, offset: 0x7077C, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence removeLegacyFiles]', symObjAddr: 0x24A6, symBinAddr: 0x10478, symSize: 0x105 }
+  - { offsetInCU: 0x2B5C, offset: 0x708D7, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence unarchiveOrDefaultFromFile:asClass:]', symObjAddr: 0x25AB, symBinAddr: 0x1057D, symSize: 0x5A }
+  - { offsetInCU: 0x2BFE, offset: 0x70979, size: 0x8, addend: 0x0, symName: '+[MixpanelPersistence unarchiveFromFile:asClass:]', symObjAddr: 0x2605, symBinAddr: 0x105D7, symSize: 0x36F }
+  - { offsetInCU: 0x2F8D, offset: 0x70D08, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence unarchiveEvents]', symObjAddr: 0x2D3C, symBinAddr: 0x10D0E, symSize: 0x77 }
+  - { offsetInCU: 0x300A, offset: 0x70D85, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence unarchivePeople]', symObjAddr: 0x2DB3, symBinAddr: 0x10D85, symSize: 0x77 }
+  - { offsetInCU: 0x307A, offset: 0x70DF5, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence unarchiveGroups]', symObjAddr: 0x2E2A, symBinAddr: 0x10DFC, symSize: 0x77 }
+  - { offsetInCU: 0x30EA, offset: 0x70E65, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence unarchiveProperties]', symObjAddr: 0x2EA1, symBinAddr: 0x10E73, symSize: 0x77 }
+  - { offsetInCU: 0x315A, offset: 0x70ED5, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence unarchiveOptOut]', symObjAddr: 0x2F18, symBinAddr: 0x10EEA, symSize: 0x77 }
+  - { offsetInCU: 0x31CA, offset: 0x70F45, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence needMigration]', symObjAddr: 0x2F8F, symBinAddr: 0x10F61, symSize: 0x175 }
+  - { offsetInCU: 0x3339, offset: 0x710B4, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence apiToken]', symObjAddr: 0x3104, symBinAddr: 0x110D6, symSize: 0xA }
+  - { offsetInCU: 0x336E, offset: 0x710E9, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence mpdb]', symObjAddr: 0x310E, symBinAddr: 0x110E0, symSize: 0xA }
+  - { offsetInCU: 0x33A3, offset: 0x7111E, size: 0x8, addend: 0x0, symName: '-[MixpanelPersistence .cxx_destruct]', symObjAddr: 0x3118, symBinAddr: 0x110EA, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x71332, size: 0x8, addend: 0x0, symName: '-[NSString(MixpanelTypeCategory) equalToMixpanelType:]', symObjAddr: 0x0, symBinAddr: 0x11112, symSize: 0x77 }
+  - { offsetInCU: 0x43, offset: 0x7134E, size: 0x8, addend: 0x0, symName: '-[NSString(MixpanelTypeCategory) equalToMixpanelType:]', symObjAddr: 0x0, symBinAddr: 0x11112, symSize: 0x77 }
+  - { offsetInCU: 0xEE, offset: 0x713F9, size: 0x8, addend: 0x0, symName: '-[NSNumber(MixpanelTypeCategory) equalToMixpanelType:]', symObjAddr: 0x77, symBinAddr: 0x11189, symSize: 0x77 }
+  - { offsetInCU: 0x199, offset: 0x714A4, size: 0x8, addend: 0x0, symName: '-[NSDate(MixpanelTypeCategory) equalToMixpanelType:]', symObjAddr: 0xEE, symBinAddr: 0x11200, symSize: 0x77 }
+  - { offsetInCU: 0x244, offset: 0x7154F, size: 0x8, addend: 0x0, symName: '-[NSURL(MixpanelTypeCategory) equalToMixpanelType:]', symObjAddr: 0x165, symBinAddr: 0x11277, symSize: 0x77 }
+  - { offsetInCU: 0x2EF, offset: 0x715FA, size: 0x8, addend: 0x0, symName: '-[NSArray(MixpanelTypeCategory) equalToMixpanelType:]', symObjAddr: 0x1DC, symBinAddr: 0x112EE, symSize: 0x1CD }
+  - { offsetInCU: 0x50E, offset: 0x71819, size: 0x8, addend: 0x0, symName: '-[NSDictionary(MixpanelTypeCategory) equalToMixpanelType:]', symObjAddr: 0x3A9, symBinAddr: 0x114BB, symSize: 0x16E }
+  - { offsetInCU: 0x65A, offset: 0x71965, size: 0x8, addend: 0x0, symName: '___58-[NSDictionary(MixpanelTypeCategory) equalToMixpanelType:]_block_invoke', symObjAddr: 0x517, symBinAddr: 0x11629, symSize: 0xF7 }
+  - { offsetInCU: 0x27, offset: 0x71CCC, size: 0x8, addend: 0x0, symName: '-[MPDB initWithToken:]', symObjAddr: 0x0, symBinAddr: 0x11720, symSize: 0x83 }
+  - { offsetInCU: 0x35, offset: 0x71CDA, size: 0x8, addend: 0x0, symName: _MPLogInfo, symObjAddr: 0x222, symBinAddr: 0x11942, symSize: 0x1F9 }
+  - { offsetInCU: 0x233, offset: 0x71ED8, size: 0x8, addend: 0x0, symName: _MPLogWarning, symObjAddr: 0x545, symBinAddr: 0x11C65, symSize: 0x1F9 }
+  - { offsetInCU: 0x4B9, offset: 0x7215E, size: 0x8, addend: 0x0, symName: '-[MPDB initWithToken:]', symObjAddr: 0x0, symBinAddr: 0x11720, symSize: 0x83 }
+  - { offsetInCU: 0x53D, offset: 0x721E2, size: 0x8, addend: 0x0, symName: '-[MPDB pathToDB]', symObjAddr: 0x83, symBinAddr: 0x117A3, symSize: 0xDC }
+  - { offsetInCU: 0x636, offset: 0x722DB, size: 0x8, addend: 0x0, symName: '-[MPDB tableNameFor:]', symObjAddr: 0x15F, symBinAddr: 0x1187F, symSize: 0x96 }
+  - { offsetInCU: 0x6D2, offset: 0x72377, size: 0x8, addend: 0x0, symName: '-[MPDB reconnect]', symObjAddr: 0x1F5, symBinAddr: 0x11915, symSize: 0x2D }
+  - { offsetInCU: 0x78B, offset: 0x72430, size: 0x8, addend: 0x0, symName: '-[MPDB open]', symObjAddr: 0x41B, symBinAddr: 0x11B3B, symSize: 0x12A }
+  - { offsetInCU: 0x8C3, offset: 0x72568, size: 0x8, addend: 0x0, symName: '-[MPDB close]', symObjAddr: 0x73E, symBinAddr: 0x11E5E, symSize: 0x44 }
+  - { offsetInCU: 0x954, offset: 0x725F9, size: 0x8, addend: 0x0, symName: '-[MPDB recreate]', symObjAddr: 0x782, symBinAddr: 0x11EA2, symSize: 0x107 }
+  - { offsetInCU: 0xABF, offset: 0x72764, size: 0x8, addend: 0x0, symName: '-[MPDB createTableFor:]', symObjAddr: 0x889, symBinAddr: 0x11FA9, symSize: 0x1CE }
+  - { offsetInCU: 0xD10, offset: 0x729B5, size: 0x8, addend: 0x0, symName: '-[MPDB createTables]', symObjAddr: 0xA57, symBinAddr: 0x12177, symSize: 0x54 }
+  - { offsetInCU: 0xD95, offset: 0x72A3A, size: 0x8, addend: 0x0, symName: '-[MPDB insertRow:data:flag:]', symObjAddr: 0xAAB, symBinAddr: 0x121CB, symSize: 0x227 }
+  - { offsetInCU: 0x10A3, offset: 0x72D48, size: 0x8, addend: 0x0, symName: '-[MPDB deleteRows:ids:isDeleteAll:]', symObjAddr: 0xCD2, symBinAddr: 0x123F2, symSize: 0x296 }
+  - { offsetInCU: 0x1349, offset: 0x72FEE, size: 0x8, addend: 0x0, symName: '-[MPDB idsSqlString:]', symObjAddr: 0xF68, symBinAddr: 0x12688, symSize: 0x228 }
+  - { offsetInCU: 0x14AA, offset: 0x7314F, size: 0x8, addend: 0x0, symName: '-[MPDB updateRowsFlag:newFlag:]', symObjAddr: 0x1190, symBinAddr: 0x128B0, symSize: 0x1B9 }
+  - { offsetInCU: 0x168F, offset: 0x73334, size: 0x8, addend: 0x0, symName: '-[MPDB readRows:numRows:flag:]', symObjAddr: 0x1349, symBinAddr: 0x12A69, symSize: 0x3DF }
+  - { offsetInCU: 0x1A9F, offset: 0x73744, size: 0x8, addend: 0x0, symName: '-[MPDB logSqlError:]', symObjAddr: 0x1728, symBinAddr: 0x12E48, symSize: 0xCD }
+  - { offsetInCU: 0x1BD5, offset: 0x7387A, size: 0x8, addend: 0x0, symName: '-[MPDB apiToken]', symObjAddr: 0x17F5, symBinAddr: 0x12F15, symSize: 0xA }
+  - { offsetInCU: 0x1C0A, offset: 0x738AF, size: 0x8, addend: 0x0, symName: '-[MPDB connection]', symObjAddr: 0x17FF, symBinAddr: 0x12F1F, symSize: 0xA }
+  - { offsetInCU: 0x1C3F, offset: 0x738E4, size: 0x8, addend: 0x0, symName: '-[MPDB setConnection:]', symObjAddr: 0x1809, symBinAddr: 0x12F29, symSize: 0xA }
+  - { offsetInCU: 0x1C7C, offset: 0x73921, size: 0x8, addend: 0x0, symName: '-[MPDB .cxx_destruct]', symObjAddr: 0x1813, symBinAddr: 0x12F33, symSize: 0x10 }
+  - { offsetInCU: 0x27, offset: 0x739C7, size: 0x8, addend: 0x0, symName: '+[MPJSONHandler encodedJSONString:]', symObjAddr: 0x0, symBinAddr: 0x12F43, symSize: 0x69 }
+  - { offsetInCU: 0x35, offset: 0x739D5, size: 0x8, addend: 0x0, symName: '+[MPJSONHandler dateFormatter]', symObjAddr: 0xB97, symBinAddr: 0x13ADA, symSize: 0x30 }
+  - { offsetInCU: 0x5F, offset: 0x739FF, size: 0x8, addend: 0x0, symName: _dateFormatter.formatter, symObjAddr: 0x4BB0, symBinAddr: 0x23F30, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x73A15, size: 0x8, addend: 0x0, symName: _dateFormatter.onceToken, symObjAddr: 0x4BB8, symBinAddr: 0x23F38, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0x73A5B, size: 0x8, addend: 0x0, symName: _MPLogError, symObjAddr: 0x181, symBinAddr: 0x130C4, symSize: 0x1F9 }
+  - { offsetInCU: 0x2B9, offset: 0x73C59, size: 0x8, addend: 0x0, symName: _MPLogWarning, symObjAddr: 0x99E, symBinAddr: 0x138E1, symSize: 0x1F9 }
+  - { offsetInCU: 0x4C8, offset: 0x73E68, size: 0x8, addend: 0x0, symName: '+[MPJSONHandler encodedJSONString:]', symObjAddr: 0x0, symBinAddr: 0x12F43, symSize: 0x69 }
+  - { offsetInCU: 0x555, offset: 0x73EF5, size: 0x8, addend: 0x0, symName: '+[MPJSONHandler encodedJSONData:]', symObjAddr: 0x69, symBinAddr: 0x12FAC, symSize: 0x118 }
+  - { offsetInCU: 0x6EF, offset: 0x7408F, size: 0x8, addend: 0x0, symName: '+[MPJSONHandler convertFoundationTypesToJSON:]', symObjAddr: 0x37A, symBinAddr: 0x132BD, symSize: 0x624 }
+  - { offsetInCU: 0xC6F, offset: 0x7460F, size: 0x8, addend: 0x0, symName: '___30+[MPJSONHandler dateFormatter]_block_invoke', symObjAddr: 0xBC7, symBinAddr: 0x13B0A, symSize: 0xE0 }
+  - { offsetInCU: 0x27, offset: 0x747C5, size: 0x8, addend: 0x0, symName: '+[MPLogger sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x13BEA, symSize: 0x63 }
+  - { offsetInCU: 0x35, offset: 0x747D3, size: 0x8, addend: 0x0, symName: '+[MPLogger sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x13BEA, symSize: 0x63 }
+  - { offsetInCU: 0x5F, offset: 0x747FD, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedMPLogger, symObjAddr: 0x1F38, symBinAddr: 0x23F48, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x74813, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1F40, symBinAddr: 0x23F50, symSize: 0x0 }
+  - { offsetInCU: 0x16A, offset: 0x74908, size: 0x8, addend: 0x0, symName: '___26+[MPLogger sharedInstance]_block_invoke', symObjAddr: 0x63, symBinAddr: 0x13C4D, symSize: 0x51 }
+  - { offsetInCU: 0x1D4, offset: 0x74972, size: 0x8, addend: 0x0, symName: '-[MPLogger loggingEnabled]', symObjAddr: 0xB4, symBinAddr: 0x13C9E, symSize: 0x9 }
+  - { offsetInCU: 0x209, offset: 0x749A7, size: 0x8, addend: 0x0, symName: '-[MPLogger setLoggingEnabled:]', symObjAddr: 0xBD, symBinAddr: 0x13CA7, symSize: 0x9 }
+  - { offsetInCU: 0x27, offset: 0x74AC0, size: 0x8, addend: 0x0, symName: '+[MPNetwork sharedURLSession]', symObjAddr: 0x0, symBinAddr: 0x13CB0, symSize: 0xD3 }
+  - { offsetInCU: 0x68, offset: 0x74B01, size: 0x8, addend: 0x0, symName: '+[MPNetwork sharedURLSession]', symObjAddr: 0x0, symBinAddr: 0x13CB0, symSize: 0xD3 }
+  - { offsetInCU: 0x92, offset: 0x74B2B, size: 0x8, addend: 0x0, symName: _sharedURLSession.sharedSession, symObjAddr: 0xCB50, symBinAddr: 0x23F58, symSize: 0x0 }
+  - { offsetInCU: 0x15B, offset: 0x74BF4, size: 0x8, addend: 0x0, symName: '-[MPNetwork flushQueue:endpoint:persistenceType:]', symObjAddr: 0x1EC, symBinAddr: 0x13E9C, symSize: 0x662 }
+  - { offsetInCU: 0x698, offset: 0x75131, size: 0x8, addend: 0x0, symName: '+[MPNetwork pathForEndpoint:]', symObjAddr: 0x1452, symBinAddr: 0x15015, symSize: 0x83 }
+  - { offsetInCU: 0x6C2, offset: 0x7515B, size: 0x8, addend: 0x0, symName: '_pathForEndpoint:.endPointToPath', symObjAddr: 0xCB58, symBinAddr: 0x23F60, symSize: 0x0 }
+  - { offsetInCU: 0x6D8, offset: 0x75171, size: 0x8, addend: 0x0, symName: '_pathForEndpoint:.onceToken', symObjAddr: 0xCB60, symBinAddr: 0x23F68, symSize: 0x0 }
+  - { offsetInCU: 0x75F, offset: 0x751F8, size: 0x8, addend: 0x0, symName: _MPLogDebug, symObjAddr: 0x84E, symBinAddr: 0x144FE, symSize: 0x1F9 }
+  - { offsetInCU: 0x95D, offset: 0x753F6, size: 0x8, addend: 0x0, symName: _MPLogError, symObjAddr: 0xBD9, symBinAddr: 0x1486B, symSize: 0x1E4 }
+  - { offsetInCU: 0xB10, offset: 0x755A9, size: 0x8, addend: 0x0, symName: _MPLogInfo, symObjAddr: 0xDBD, symBinAddr: 0x14A4F, symSize: 0x1E4 }
+  - { offsetInCU: 0x10F3, offset: 0x75B8C, size: 0x8, addend: 0x0, symName: '-[MPNetwork initWithServerURL:mixpanel:]', symObjAddr: 0xD3, symBinAddr: 0x13D83, symSize: 0xC2 }
+  - { offsetInCU: 0x1205, offset: 0x75C9E, size: 0x8, addend: 0x0, symName: '-[MPNetwork flushEventQueue:]', symObjAddr: 0x195, symBinAddr: 0x13E45, symSize: 0x1B }
+  - { offsetInCU: 0x1267, offset: 0x75D00, size: 0x8, addend: 0x0, symName: '-[MPNetwork flushPeopleQueue:]', symObjAddr: 0x1B0, symBinAddr: 0x13E60, symSize: 0x1E }
+  - { offsetInCU: 0x12C9, offset: 0x75D62, size: 0x8, addend: 0x0, symName: '-[MPNetwork flushGroupsQueue:]', symObjAddr: 0x1CE, symBinAddr: 0x13E7E, symSize: 0x1E }
+  - { offsetInCU: 0x13D1, offset: 0x75E6A, size: 0x8, addend: 0x0, symName: '___49-[MPNetwork flushQueue:endpoint:persistenceType:]_block_invoke', symObjAddr: 0xA47, symBinAddr: 0x146F7, symSize: 0x5A }
+  - { offsetInCU: 0x1468, offset: 0x75F01, size: 0x8, addend: 0x0, symName: '___49-[MPNetwork flushQueue:endpoint:persistenceType:]_block_invoke.87', symObjAddr: 0xABF, symBinAddr: 0x14751, symSize: 0x11A }
+  - { offsetInCU: 0x1671, offset: 0x7610A, size: 0x8, addend: 0x0, symName: '___49-[MPNetwork flushQueue:endpoint:persistenceType:]_block_invoke.110', symObjAddr: 0x1018, symBinAddr: 0x14C33, symSize: 0x77 }
+  - { offsetInCU: 0x171C, offset: 0x761B5, size: 0x8, addend: 0x0, symName: '-[MPNetwork removeProcessedBatch:queue:]', symObjAddr: 0x10E7, symBinAddr: 0x14CAA, symSize: 0x174 }
+  - { offsetInCU: 0x1847, offset: 0x762E0, size: 0x8, addend: 0x0, symName: '-[MPNetwork handleNetworkResponse:withError:]', symObjAddr: 0x125B, symBinAddr: 0x14E1E, symSize: 0x1F7 }
+  - { offsetInCU: 0x1B36, offset: 0x765CF, size: 0x8, addend: 0x0, symName: '___29+[MPNetwork pathForEndpoint:]_block_invoke', symObjAddr: 0x14D5, symBinAddr: 0x15098, symSize: 0x136 }
+  - { offsetInCU: 0x1BD5, offset: 0x7666E, size: 0x8, addend: 0x0, symName: '-[MPNetwork buildGetRequestForEndpoint:withQueryItems:]', symObjAddr: 0x160B, symBinAddr: 0x151CE, symSize: 0x9A }
+  - { offsetInCU: 0x1C81, offset: 0x7671A, size: 0x8, addend: 0x0, symName: '-[MPNetwork buildPostRequestForEndpoint:withQueryItems:andBody:]', symObjAddr: 0x16A5, symBinAddr: 0x15268, symSize: 0xB2 }
+  - { offsetInCU: 0x1D65, offset: 0x767FE, size: 0x8, addend: 0x0, symName: '-[MPNetwork buildRequestForEndpoint:byHTTPMethod:withQueryItems:andBody:]', symObjAddr: 0x1757, symBinAddr: 0x1531A, symSize: 0x248 }
+  - { offsetInCU: 0x2057, offset: 0x76AF0, size: 0x8, addend: 0x0, symName: '+[MPNetwork calculateBackOffTimeFromFailures:]', symObjAddr: 0x199F, symBinAddr: 0x15562, symSize: 0x66 }
+  - { offsetInCU: 0x212B, offset: 0x76BC4, size: 0x8, addend: 0x0, symName: '+[MPNetwork parseRetryAfterTime:]', symObjAddr: 0x1A05, symBinAddr: 0x155C8, symSize: 0x7D }
+  - { offsetInCU: 0x21BA, offset: 0x76C53, size: 0x8, addend: 0x0, symName: '+[MPNetwork parseHTTPFailure:withError:]', symObjAddr: 0x1A82, symBinAddr: 0x15645, symSize: 0x6E }
+  - { offsetInCU: 0x226C, offset: 0x76D05, size: 0x8, addend: 0x0, symName: '-[MPNetwork updateNetworkActivityIndicator:]', symObjAddr: 0x1AF0, symBinAddr: 0x156B3, symSize: 0x81 }
+  - { offsetInCU: 0x22E5, offset: 0x76D7E, size: 0x8, addend: 0x0, symName: '___44-[MPNetwork updateNetworkActivityIndicator:]_block_invoke', symObjAddr: 0x1B71, symBinAddr: 0x15734, symSize: 0x53 }
+  - { offsetInCU: 0x2354, offset: 0x76DED, size: 0x8, addend: 0x0, symName: '-[MPNetwork shouldManageNetworkActivityIndicator]', symObjAddr: 0x1BC4, symBinAddr: 0x15787, symSize: 0x9 }
+  - { offsetInCU: 0x2389, offset: 0x76E22, size: 0x8, addend: 0x0, symName: '-[MPNetwork setShouldManageNetworkActivityIndicator:]', symObjAddr: 0x1BCD, symBinAddr: 0x15790, symSize: 0x9 }
+  - { offsetInCU: 0x23C6, offset: 0x76E5F, size: 0x8, addend: 0x0, symName: '-[MPNetwork useIPAddressForGeoLocation]', symObjAddr: 0x1BD6, symBinAddr: 0x15799, symSize: 0x9 }
+  - { offsetInCU: 0x23FB, offset: 0x76E94, size: 0x8, addend: 0x0, symName: '-[MPNetwork setUseIPAddressForGeoLocation:]', symObjAddr: 0x1BDF, symBinAddr: 0x157A2, symSize: 0x9 }
+  - { offsetInCU: 0x2438, offset: 0x76ED1, size: 0x8, addend: 0x0, symName: '-[MPNetwork mixpanel]', symObjAddr: 0x1BE8, symBinAddr: 0x157AB, symSize: 0x16 }
+  - { offsetInCU: 0x246F, offset: 0x76F08, size: 0x8, addend: 0x0, symName: '-[MPNetwork setMixpanel:]', symObjAddr: 0x1BFE, symBinAddr: 0x157C1, symSize: 0x11 }
+  - { offsetInCU: 0x24AE, offset: 0x76F47, size: 0x8, addend: 0x0, symName: '-[MPNetwork serverURL]', symObjAddr: 0x1C0F, symBinAddr: 0x157D2, symSize: 0xA }
+  - { offsetInCU: 0x24E3, offset: 0x76F7C, size: 0x8, addend: 0x0, symName: '-[MPNetwork setServerURL:]', symObjAddr: 0x1C19, symBinAddr: 0x157DC, symSize: 0x11 }
+  - { offsetInCU: 0x2522, offset: 0x76FBB, size: 0x8, addend: 0x0, symName: '-[MPNetwork requestsDisabledUntilTime]', symObjAddr: 0x1C2A, symBinAddr: 0x157ED, symSize: 0xB }
+  - { offsetInCU: 0x2557, offset: 0x76FF0, size: 0x8, addend: 0x0, symName: '-[MPNetwork setRequestsDisabledUntilTime:]', symObjAddr: 0x1C35, symBinAddr: 0x157F8, symSize: 0xB }
+  - { offsetInCU: 0x2594, offset: 0x7702D, size: 0x8, addend: 0x0, symName: '-[MPNetwork consecutiveFailures]', symObjAddr: 0x1C40, symBinAddr: 0x15803, symSize: 0xA }
+  - { offsetInCU: 0x25C9, offset: 0x77062, size: 0x8, addend: 0x0, symName: '-[MPNetwork setConsecutiveFailures:]', symObjAddr: 0x1C4A, symBinAddr: 0x1580D, symSize: 0xA }
+  - { offsetInCU: 0x2606, offset: 0x7709F, size: 0x8, addend: 0x0, symName: '-[MPNetwork .cxx_destruct]', symObjAddr: 0x1C54, symBinAddr: 0x15817, symSize: 0x26 }
+  - { offsetInCU: 0x27, offset: 0x77450, size: 0x8, addend: 0x0, symName: '-[SessionMetadata init]', symObjAddr: 0x0, symBinAddr: 0x1583D, symSize: 0x101 }
+  - { offsetInCU: 0xCE, offset: 0x774F7, size: 0x8, addend: 0x0, symName: '-[SessionMetadata init]', symObjAddr: 0x0, symBinAddr: 0x1583D, symSize: 0x101 }
+  - { offsetInCU: 0x1AD, offset: 0x775D6, size: 0x8, addend: 0x0, symName: '-[SessionMetadata reset]', symObjAddr: 0x101, symBinAddr: 0x1593E, symSize: 0xCA }
+  - { offsetInCU: 0x289, offset: 0x776B2, size: 0x8, addend: 0x0, symName: '-[SessionMetadata randomId]', symObjAddr: 0x1CB, symBinAddr: 0x15A08, symSize: 0x3E }
+  - { offsetInCU: 0x307, offset: 0x77730, size: 0x8, addend: 0x0, symName: '-[SessionMetadata toDictionaryForEvent:]', symObjAddr: 0x209, symBinAddr: 0x15A46, symSize: 0x237 }
+  - { offsetInCU: 0x45F, offset: 0x77888, size: 0x8, addend: 0x0, symName: '-[SessionMetadata eventsCounter]', symObjAddr: 0x440, symBinAddr: 0x15C7D, symSize: 0xA }
+  - { offsetInCU: 0x494, offset: 0x778BD, size: 0x8, addend: 0x0, symName: '-[SessionMetadata setEventsCounter:]', symObjAddr: 0x44A, symBinAddr: 0x15C87, symSize: 0xA }
+  - { offsetInCU: 0x4D1, offset: 0x778FA, size: 0x8, addend: 0x0, symName: '-[SessionMetadata peopleCounter]', symObjAddr: 0x454, symBinAddr: 0x15C91, symSize: 0xA }
+  - { offsetInCU: 0x506, offset: 0x7792F, size: 0x8, addend: 0x0, symName: '-[SessionMetadata setPeopleCounter:]', symObjAddr: 0x45E, symBinAddr: 0x15C9B, symSize: 0xA }
+  - { offsetInCU: 0x543, offset: 0x7796C, size: 0x8, addend: 0x0, symName: '-[SessionMetadata sessionID]', symObjAddr: 0x468, symBinAddr: 0x15CA5, symSize: 0xA }
+  - { offsetInCU: 0x578, offset: 0x779A1, size: 0x8, addend: 0x0, symName: '-[SessionMetadata setSessionID:]', symObjAddr: 0x472, symBinAddr: 0x15CAF, symSize: 0xF }
+  - { offsetInCU: 0x5B7, offset: 0x779E0, size: 0x8, addend: 0x0, symName: '-[SessionMetadata sessionStartEpoch]', symObjAddr: 0x481, symBinAddr: 0x15CBE, symSize: 0xA }
+  - { offsetInCU: 0x5EC, offset: 0x77A15, size: 0x8, addend: 0x0, symName: '-[SessionMetadata setSessionStartEpoch:]', symObjAddr: 0x48B, symBinAddr: 0x15CC8, symSize: 0xA }
+  - { offsetInCU: 0x629, offset: 0x77A52, size: 0x8, addend: 0x0, symName: '-[SessionMetadata .cxx_destruct]', symObjAddr: 0x495, symBinAddr: 0x15CD2, symSize: 0x10 }
+...

@@ -1,0 +1,7 @@
+source 'https://cdn.cocoapods.org'
+target 'ios' do
+	use_frameworks!
+	pod 'Mixpanel'
+	pod 'UXCam'
+end
+

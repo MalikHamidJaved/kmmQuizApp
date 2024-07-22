@@ -1,0 +1,6 @@
+framework module analytics {
+  umbrella header "placeholder.h"
+
+  export *
+  module * { export * }
+}

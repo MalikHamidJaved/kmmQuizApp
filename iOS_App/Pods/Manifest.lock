@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../kmmtshared"
 
 SPEC CHECKSUMS:
-  kmmtshared: f69809ba308e96dac6b34bc35fabda1c89853e6d
+  kmmtshared: 940a80c30f96ac49f22b1192ceddbafb058774dc
   Mixpanel: 10a8acdddfa4026b51a69c82ed0d573cc1e70120
   UXCam: eda9b3c43b59508bbb241d2c0a04e35df6856872
 
 PODFILE CHECKSUM: 0997650e4f3cf515ad75c7936f38f0e1f17eaf2b
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2

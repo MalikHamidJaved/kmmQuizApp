@@ -1,0 +1,13 @@
+abi_version=1.7.0
+builtins_platform=NATIVE
+commonizer_native_targets=ios_arm64 ios_simulator_arm64 ios_x64
+commonizer_target=(ios_arm64, ios_simulator_arm64, ios_x64)
+compiler_version=1.7.0
+depends=stdlib org.jetbrains.kotlin.native.platform.darwin org.jetbrains.kotlin.native.platform.Foundation
+exportForwardDeclarations=
+interop=true
+ir_version=1.0.0
+metadata_version=1.4.1
+native_targets=ios_simulator_arm64 ios_x64
+package=cocoapods.Mixpanel
+unique_name=com.jittyandiyan.mobile\:analytics-cinterop-Mixpanel
